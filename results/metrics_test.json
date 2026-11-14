@@ -1,0 +1,62 @@
+{
+  "evaluated_at": "2026-11-14T03:30:09+07:00",
+  "split": "test",
+  "model": "intfloat/multilingual-e5-small",
+  "model_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "top_k": 3,
+  "versions": {
+    "python": "3.12.5",
+    "sentence-transformers": "6.3.0",
+    "transformers": "5.23.0",
+    "torch": "2.15.0+cpu",
+    "chromadb": "1.5.9",
+    "pypdf": "6.21.4",
+    "olefile": "0.47"
+  },
+  "query_embed_s": 0.51,
+  "ann_vs_exact_top_k_overlap": "61/63",
+  "metrics": [
+    {
+      "strategy": "A",
+      "split": "test",
+      "N": 7,
+      "hit_at_1": 5,
+      "hit_at_3": 7,
+      "hit_at_1_rate": 0.714,
+      "hit_at_3_rate": 1.0,
+      "gold_unit_at_3": 7,
+      "evidence_split": 0,
+      "filter_questions": 2,
+      "filter_hit_at_3": 2,
+      "filter_compliant": 0
+    },
+    {
+      "strategy": "B",
+      "split": "test",
+      "N": 7,
+      "hit_at_1": 7,
+      "hit_at_3": 7,
+      "hit_at_1_rate": 1.0,
+      "hit_at_3_rate": 1.0,
+      "gold_unit_at_3": 7,
+      "evidence_split": 0,
+      "filter_questions": 2,
+      "filter_hit_at_3": 2,
+      "filter_compliant": 0
+    },
+    {
+      "strategy": "C",
+      "split": "test",
+      "N": 7,
+      "hit_at_1": 7,
+      "hit_at_3": 7,
+      "hit_at_1_rate": 1.0,
+      "hit_at_3_rate": 1.0,
+      "gold_unit_at_3": 7,
+      "evidence_split": 0,
+      "filter_questions": 2,
+      "filter_hit_at_3": 2,
+      "filter_compliant": 2
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "generated_at": "2026-11-14T03:12:11+07:00",
+  "sources": [
+    {
+      "source_id": "blld-2012",
+      "errors": [],
+      "warnings": [],
+      "units": 242,
+      "unit_chars": 157799,
+      "excluded_preamble_lines": [
+        "QUỐC HỘI",
+        "-------------------",
+        "Luật số: 10/2012/QH13",
+        "CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+        "Độc lập - Tự do - Hạnh phúc",
+        "--------------------",
+        "BỘ LUẬT",
+        "LAO ĐỘNG",
+        "Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam năm 1992 đã được sửa đổi, bổ sung một số điều theo Nghị quyết số 51/2001/QH10;",
+        "Quốc hội ban hành Bộ luật lao động."
+      ],
+      "excluded_tail_lines": [
+        "Bộ luật này đã được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XIII, kỳ họp thứ 3 thông qua ngày 18 tháng 6 năm 2012.",
+        "CHỦ TỊCH QUỐC HỘI",
+        "Nguyễn Sinh Hùng"
+      ],
+      "chapters": 17,
+      "sections": 30,
+      "file": "data/raw/blld-2012_10-2012-QH13.doc",
+      "sha256": "27e1a0796f231a118b8a5957c89ec297e2e23e8265f1121573397a9f92205c35",
+      "raw_chars": 161026,
+      "normalized_chars": 160679
+    },
+    {
+      "source_id": "blld-2019",
+      "errors": [],
+      "warnings": [],
+      "units": 220,
+      "unit_chars": 186642,
+      "excluded_preamble_lines": [
+        "QUỐC HỘI",
+        "--------",
+        "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+        "Độc lập - Tự do - Hạnh phúc",
+        "---------------",
+        "Bộ luật số: 45/2019/QH14",
+        "Hà Nội, ngày 20 tháng 11 năm 2019",
+        "BỘ LUẬT",
+        "LAO ĐỘNG",
+        "Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam;",
+        "Quốc hội ban hành Bộ luật Lao động."
+      ],
+      "excluded_tail_lines": [
+        "Bộ luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XIV, kỳ họp thứ 8 thông qua ngày 20 tháng 11 năm 2019./.",
+        "CHỦ TỊCH QUỐC HỘI",
+        "Nguyễn Thị Kim Ngân",
+        "2021 Copyright - Trang thông tin điện tử phổ biến, giáo dục pháp luật thành phố Cần Thơ"
+      ],
+      "chapters": 17,
+      "sections": 24,
+      "file": "data/raw/blld-2019_45-2019-QH14.html",
+      "sha256": "2e1654870d3ee72b1dc86c0aac4590b62ab3197b5b0240d2f10dbeb2e8bd56d3",
+      "raw_chars": 189558,
+      "normalized_chars": 189356
+    }
+  ]
+}

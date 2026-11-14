@@ -1,5 +1,57 @@
 # Day 06 · Data Ingestion Engineering
 
+## Bài nộp: Nguyễn Tiến Hưng (2A202603365)
+
+Corpus: Bộ luật Lao động 2012 (10/2012/QH13) và 2019 (45/2019/QH14), 462 Điều. Embedding chạy local bằng `intfloat/multilingual-e5-small` (384 chiều, CPU, không tốn phí). Vector store là Chroma lưu trên đĩa, thay cho pgvector. Code ở `starter/src/`, cấu hình ba chiến lược ở `starter/configs/strategies.json`. Báo cáo: [report/individual/2A202603365_NguyenTienHung.md](report/individual/2A202603365_NguyenTienHung.md).
+
+### Cài đặt
+
+Đã chạy với Python 3.12.5 trên Windows 11, chỉ dùng CPU. Từ thư mục `starter/`:
+
+```powershell
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+python -m pip install torch==2.15.0 --index-url https://download.pytorch.org/whl/cpu
+python -m pip install -r requirements.txt
+Copy-Item .env.example .env
+```
+
+Không cần API key. Lần chạy đầu cần mạng để tải model (khoảng 470 MB); muốn lưu model ở ổ khác thì đặt `HF_HOME` trong `.env`.
+
+### Lệnh chạy
+
+Chạy từ thư mục `starter/`, theo thứ tự:
+
+```bash
+python -m src.run prepare               # đọc 2 file gốc, chuẩn hóa, tách Điều -> data/processed/, data/manifest.json
+python -m src.run check-benchmark       # kiểm tra 25 câu hỏi và evidence -> results/benchmark_check.json
+python -m src.run ingest                # chunk + embed + lưu collection A và B (C dùng chung với B)
+python -m src.run evaluate --split dev
+python -m src.run evaluate --split test
+python -m src.run audit                 # xuất bảng chấm tay; không ghi đè nhãn đã có nếu thiếu --force
+python -m src.run audit-summary         # tổng hợp nhãn -> results/audit_summary.json
+python -m scripts.reingest_change_test  # thử sửa/xóa tài liệu trên một store tạm
+```
+
+`starter/vectordb/` không được commit; lệnh `ingest` tạo lại (khoảng 2 phút trên CPU). Chạy `ingest` lần nữa không nhân đôi dữ liệu: chunk không đổi được bỏ qua, chunk cũ bị xóa.
+
+### Dữ liệu và kết quả
+
+| Nội dung | Đường dẫn |
+|---|---|
+| Nguồn, URL, quyền sử dụng, file gốc | `data/sources.json`, `data/raw/` |
+| Văn bản chuẩn hóa, đơn vị truy vết, quy tắc tính | `data/processed/`, `data/manifest.json` |
+| Câu hỏi, split dev/test, evidence, tiêu chí chọn | `benchmark/` |
+| Cấu hình và giả thuyết A/B/C | `artifacts/experiment_log.csv`, `starter/configs/strategies.json` |
+| Log đọc tài liệu, thống kê ingest | `results/ingest_log.json`, `results/ingest_stats.json`, `results/ingest_runs.jsonl` |
+| Trace top-3, chỉ số dev/test | `results/traces/`, `results/metrics_*.json`, `results/per_question_*.csv` |
+| Bảng chấm tay, phân tích | `results/audit/`, `results/audit_summary.json`, `results/analysis.md` |
+| Lựa chọn trên dev (ghi trước khi chạy test) | `results/selection_dev.md` |
+
+---
+
+Phần dưới là đề bài gốc.
+
 **Lab cá nhân** · **4 giờ** · **Dữ liệu tự chọn**
 
 Biến tài liệu thành kho tri thức có thể truy xuất cho AI agent, rồi đo xem cách chuẩn bị dữ liệu nào hiệu quả nhất.

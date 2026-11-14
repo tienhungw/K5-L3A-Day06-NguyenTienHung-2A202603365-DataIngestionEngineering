@@ -1,0 +1,41 @@
+{
+  "embedding": {
+    "provider": "local (sentence-transformers, CPU)",
+    "model": "intfloat/multilingual-e5-small",
+    "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "query_prefix": "query: ",
+    "document_prefix": "passage: ",
+    "normalize": true
+  },
+  "vector_store": {
+    "backend": "chroma",
+    "path": "starter/vectordb",
+    "distance": "cosine",
+    "index": "HNSW (approximate), construction_ef=200, search_ef=100"
+  },
+  "top_k": 3,
+  "strategies": {
+    "A": {
+      "collection": "blld_A_fixed500_o50",
+      "chunking": "fixed",
+      "size": 500,
+      "overlap": 50,
+      "use_filter": false,
+      "hypothesis": "Baseline. Cửa sổ ký tự cố định cắt ngang khoản/điểm nên một phần evidence bị tách sang chunk kế bên; Hit@3 thấp hơn B."
+    },
+    "B": {
+      "collection": "blld_B_para800",
+      "chunking": "paragraph",
+      "max_size": 800,
+      "use_filter": false,
+      "hypothesis": "Gom theo đoạn (khoản/điểm) trong từng Điều, tối đa 800 ký tự, giữ trọn ý nên coherence và Hit@3 cao hơn A; vẫn nhầm giữa bản 2012 và 2019 khi nội dung hai bản giống nhau."
+    },
+    "C": {
+      "collection": "blld_B_para800",
+      "chunking": "paragraph",
+      "max_size": 800,
+      "use_filter": true,
+      "hypothesis": "Cùng index với B, chỉ thêm where year=<năm> khi câu hỏi nêu phiên bản luật. Kỳ vọng tăng Hit@3 ở câu có filter, không đổi ở câu không filter."
+    }
+  }
+}

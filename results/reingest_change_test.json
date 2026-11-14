@@ -1,0 +1,63 @@
+{
+  "run_at": "2026-11-14T03:24:51+07:00",
+  "units": 20,
+  "strategy": "B",
+  "steps": [
+    {
+      "step": "1_first_load",
+      "count_before": 0,
+      "count_after": 36,
+      "embedded": 36,
+      "metadata_updated": 0,
+      "unchanged": 0,
+      "deleted": 0,
+      "time_s": {
+        "embed": 3.88,
+        "store": 0.16
+      }
+    },
+    {
+      "step": "2_same_data",
+      "count_before": 36,
+      "count_after": 36,
+      "embedded": 0,
+      "metadata_updated": 0,
+      "unchanged": 36,
+      "deleted": 0,
+      "time_s": {
+        "embed": 0.0,
+        "store": 0.0
+      }
+    },
+    {
+      "step": "3_edit_D005_remove_D010_meta_D003",
+      "count_before": 36,
+      "count_after": 35,
+      "embedded": 1,
+      "metadata_updated": 5,
+      "unchanged": 29,
+      "deleted": 1,
+      "time_s": {
+        "embed": 0.08,
+        "store": 0.08
+      },
+      "removed_ids_still_present": [],
+      "D003_chapter_title_after": [
+        "NHỮNG QUY ĐỊNH CHUNG (sửa metadata)"
+      ]
+    },
+    {
+      "step": "4_restore",
+      "count_before": 35,
+      "count_after": 36,
+      "embedded": 2,
+      "metadata_updated": 5,
+      "unchanged": 29,
+      "deleted": 0,
+      "time_s": {
+        "embed": 0.12,
+        "store": 0.05
+      }
+    }
+  ]
+}

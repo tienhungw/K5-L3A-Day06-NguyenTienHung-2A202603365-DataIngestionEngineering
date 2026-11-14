@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-11-14T03:33:14+07:00",
+  "rows": [
+    {
+      "strategy": "A",
+      "coherence_mean": 0.9,
+      "coherence_n": 10,
+      "metadata_ok": "21/21",
+      "filter_compliant": "0/2",
+      "grounding_0_1_2": "0/1/6",
+      "grounding_mean": 1.86,
+      "grounding_n": 7
+    },
+    {
+      "strategy": "B",
+      "coherence_mean": 1.7,
+      "coherence_n": 10,
+      "metadata_ok": "21/21",
+      "filter_compliant": "0/2",
+      "grounding_0_1_2": "0/0/7",
+      "grounding_mean": 2,
+      "grounding_n": 7
+    },
+    {
+      "strategy": "C",
+      "coherence_mean": 1.7,
+      "coherence_n": 10,
+      "metadata_ok": "21/21",
+      "filter_compliant": "2/2",
+      "grounding_0_1_2": "0/0/7",
+      "grounding_mean": 2,
+      "grounding_n": 7
+    }
+  ]
+}

@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed-size (cửa sổ ký tự trong từng Điều),500,50,"document_id, source, page (= số Điều), year, law_number, article, article_title, chapter, section, char/chunk offset, text_sha1",không,"intfloat/multilingual-e5-small rev 614241f6 (384 chiều, local CPU); Chroma 1.5.9 cosine HNSW",Cửa sổ cố định cắt ngang khoản/điểm nên evidence bị tách sang chunk kế bên; Hit@3 thấp hơn B.,11/18,11/18,5/7,7/7,"942 chunk; ingest 54.0 s (embed 52.3 s); 0 USD; collection blld_A_fixed500_o50; cả 7 câu dev trượt đều do evidence bị tách giữa hai chunk"
+B,paragraph (gom khoản/điểm liên tiếp trong từng Điều; đoạn dài tách theo câu),800 (tối đa),0,"giống A",không,"giống A","Giữ trọn khoản/điểm nên coherence và Hit@3 cao hơn A; vẫn nhầm bản 2012/2019 khi nội dung gần giống.",16/18,16/18,7/7,7/7,"685 chunk; ingest 51.5 s (embed 50.1 s); 0 USD; collection blld_B_para800; trượt q03 (nhầm phiên bản), q04 (câu dẫn bị tách)"
+C,giống B (dùng chung collection),800 (tối đa),0,"giống A","where year = <năm> khi câu hỏi nêu phiên bản luật","giống A","Chỉ khác B ở filter year: tăng Hit@3 ở câu có filter, không đổi ở câu không filter.",16/18,17/18,7/7,7/7,"không ingest thêm; câu không filter trùng B (dev 14/14, test 5/5); top-3 đúng năm dev 4/4, test 2/2 (B 0/4, 0/2); chiến lược được chọn trên dev"

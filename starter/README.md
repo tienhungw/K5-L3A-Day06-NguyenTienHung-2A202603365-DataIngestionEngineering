@@ -1,5 +1,7 @@
 # Starter · PostgreSQL + pgvector
 
+> Bài làm này dùng **Chroma lưu trên đĩa** (`starter/vectordb/`) thay cho PostgreSQL + pgvector, nên không cần Docker. Các hàm TODO trong `src/` đã được hiện thực. Cách cài và lệnh chạy xem [README ở thư mục gốc](../README.md). Phần dưới là hướng dẫn gốc của starter.
+
 Bộ khởi động **tùy chọn** cho lab cá nhân. Docker Compose tạo PostgreSQL + pgvector local; các file trong `src/` là **khung pseudocode có TODO**, chưa đọc tài liệu, tạo embedding, lưu vector hay chạy benchmark. Bạn cần tự hiện thực. Vẫn có thể chọn Qdrant, Chroma hoặc vector store tương đương theo [GUIDE.md](../GUIDE.md).
 
 ## Cấu trúc

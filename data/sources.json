@@ -1,0 +1,30 @@
+[
+  {
+    "source_id": "blld-2012",
+    "title": "Bộ luật Lao động số 10/2012/QH13",
+    "law_number": "10/2012/QH13",
+    "year": 2012,
+    "issued_date": "2012-06-18",
+    "file": "data/raw/blld-2012_10-2012-QH13.doc",
+    "format": "doc",
+    "source_url": "https://sotuphap.daklak.gov.vn/images/DeCuongVanBan/201291895840BL%20lao%20dong.doc",
+    "publisher": "Sở Tư pháp tỉnh Đắk Lắk (sotuphap.daklak.gov.vn)",
+    "accessed_at": "2026-11-14",
+    "version_note": "Văn bản gốc khi ban hành (file Word tạo ngày 20/07/2012). Đã hết hiệu lực từ 01/01/2021 theo Điều 220 Bộ luật Lao động 2019.",
+    "license_or_permission": "Văn bản quy phạm pháp luật, không thuộc phạm vi bảo hộ quyền tác giả theo khoản 2 Điều 15 Luật Sở hữu trí tuệ; được phép sao chép, xử lý và chia sẻ."
+  },
+  {
+    "source_id": "blld-2019",
+    "title": "Bộ luật Lao động số 45/2019/QH14",
+    "law_number": "45/2019/QH14",
+    "year": 2019,
+    "issued_date": "2019-11-20",
+    "file": "data/raw/blld-2019_45-2019-QH14.html",
+    "format": "html",
+    "source_url": "https://pbgdpl.cantho.gov.vn/attachment/261",
+    "publisher": "Trang thông tin điện tử phổ biến, giáo dục pháp luật TP Cần Thơ (pbgdpl.cantho.gov.vn)",
+    "accessed_at": "2026-11-14",
+    "version_note": "Văn bản gốc khi ban hành, không bao gồm các sửa đổi năm 2025 và văn bản hợp nhất sau này.",
+    "license_or_permission": "Văn bản quy phạm pháp luật, không thuộc phạm vi bảo hộ quyền tác giả theo khoản 2 Điều 15 Luật Sở hữu trí tuệ; được phép sao chép, xử lý và chia sẻ. Phần giao diện/footer của trang web bị loại khỏi corpus."
+  }
+]

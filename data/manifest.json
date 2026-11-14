@@ -1,0 +1,4209 @@
+{
+  "generated_at": "2026-11-14T03:12:10+07:00",
+  "unit_rule": "Nguồn là .doc và HTML không phân trang. Đơn vị truy vết là một Điều (document_id + số Điều, lưu ở trường `page`). Chỉ tính các Điều từ Điều 1 đến Điều cuối; loại phần quốc hiệu, căn cứ ban hành, dòng thông qua, chữ ký và footer trang web. Ranh giới char_start/char_end tính trên data/processed/<source_id>.txt (văn bản đã chuẩn hóa).",
+  "content_units": 462,
+  "content_chars": 344441,
+  "equivalent_1500_char_units": 229,
+  "sources": [
+    {
+      "source_id": "blld-2012",
+      "title": "Bộ luật Lao động số 10/2012/QH13",
+      "law_number": "10/2012/QH13",
+      "year": 2012,
+      "issued_date": "2012-06-18",
+      "file": "data/raw/blld-2012_10-2012-QH13.doc",
+      "format": "doc",
+      "source_url": "https://sotuphap.daklak.gov.vn/images/DeCuongVanBan/201291895840BL%20lao%20dong.doc",
+      "publisher": "Sở Tư pháp tỉnh Đắk Lắk (sotuphap.daklak.gov.vn)",
+      "accessed_at": "2026-11-14",
+      "version_note": "Văn bản gốc khi ban hành (file Word tạo ngày 20/07/2012). Đã hết hiệu lực từ 01/01/2021 theo Điều 220 Bộ luật Lao động 2019.",
+      "license_or_permission": "Văn bản quy phạm pháp luật, không thuộc phạm vi bảo hộ quyền tác giả theo khoản 2 Điều 15 Luật Sở hữu trí tuệ; được phép sao chép, xử lý và chia sẻ.",
+      "sha256": "27e1a0796f231a118b8a5957c89ec297e2e23e8265f1121573397a9f92205c35",
+      "normalized_text": "data/processed/blld-2012.txt",
+      "content_units": 242,
+      "content_chars": 157799,
+      "excluded_chars": 488,
+      "units": [
+        {
+          "unit_id": "blld-2012:D001",
+          "page": 1,
+          "title": "Phạm vi điều chỉnh",
+          "chapter": "I",
+          "char_start": 354,
+          "char_end": 690,
+          "char_count": 336
+        },
+        {
+          "unit_id": "blld-2012:D002",
+          "page": 2,
+          "title": "Đối tượng áp dụng",
+          "chapter": "I",
+          "char_start": 691,
+          "char_end": 981,
+          "char_count": 290
+        },
+        {
+          "unit_id": "blld-2012:D003",
+          "page": 3,
+          "title": "Giải thích từ ngữ",
+          "chapter": "I",
+          "char_start": 982,
+          "char_end": 3178,
+          "char_count": 2196
+        },
+        {
+          "unit_id": "blld-2012:D004",
+          "page": 4,
+          "title": "Chính sách của Nhà nước về lao động",
+          "chapter": "I",
+          "char_start": 3179,
+          "char_end": 4533,
+          "char_count": 1354
+        },
+        {
+          "unit_id": "blld-2012:D005",
+          "page": 5,
+          "title": "Quyền và nghĩa vụ của người lao động",
+          "chapter": "I",
+          "char_start": 4534,
+          "char_end": 5722,
+          "char_count": 1188
+        },
+        {
+          "unit_id": "blld-2012:D006",
+          "page": 6,
+          "title": "Quyền và nghĩa vụ của người sử dụng lao động",
+          "chapter": "I",
+          "char_start": 5723,
+          "char_end": 7101,
+          "char_count": 1378
+        },
+        {
+          "unit_id": "blld-2012:D007",
+          "page": 7,
+          "title": "Quan hệ lao động",
+          "chapter": "I",
+          "char_start": 7102,
+          "char_end": 7663,
+          "char_count": 561
+        },
+        {
+          "unit_id": "blld-2012:D008",
+          "page": 8,
+          "title": "Các hành vi bị nghiêm cấm",
+          "chapter": "I",
+          "char_start": 7664,
+          "char_end": 8590,
+          "char_count": 926
+        },
+        {
+          "unit_id": "blld-2012:D009",
+          "page": 9,
+          "title": "Việc làm, giải quyết việc làm",
+          "chapter": "II",
+          "char_start": 8610,
+          "char_end": 8885,
+          "char_count": 275
+        },
+        {
+          "unit_id": "blld-2012:D010",
+          "page": 10,
+          "title": "Quyền làm việc của người lao động",
+          "chapter": "II",
+          "char_start": 8886,
+          "char_end": 9202,
+          "char_count": 316
+        },
+        {
+          "unit_id": "blld-2012:D011",
+          "page": 11,
+          "title": "Quyền tuyển dụng lao động của người sử dụng lao động",
+          "chapter": "II",
+          "char_start": 9203,
+          "char_end": 9477,
+          "char_count": 274
+        },
+        {
+          "unit_id": "blld-2012:D012",
+          "page": 12,
+          "title": "Chính sách của Nhà nước hỗ trợ phát triển việc làm",
+          "chapter": "II",
+          "char_start": 9478,
+          "char_end": 10451,
+          "char_count": 973
+        },
+        {
+          "unit_id": "blld-2012:D013",
+          "page": 13,
+          "title": "Chương trình việc làm",
+          "chapter": "II",
+          "char_start": 10452,
+          "char_end": 10887,
+          "char_count": 435
+        },
+        {
+          "unit_id": "blld-2012:D014",
+          "page": 14,
+          "title": "Tổ chức dịch vụ việc làm",
+          "chapter": "II",
+          "char_start": 10888,
+          "char_end": 11706,
+          "char_count": 818
+        },
+        {
+          "unit_id": "blld-2012:D015",
+          "page": 15,
+          "title": "Hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 11769,
+          "char_end": 11976,
+          "char_count": 207
+        },
+        {
+          "unit_id": "blld-2012:D016",
+          "page": 16,
+          "title": "Hình thức hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 11977,
+          "char_end": 12313,
+          "char_count": 336
+        },
+        {
+          "unit_id": "blld-2012:D017",
+          "page": 17,
+          "title": "Nguyên tắc giao kết hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 12314,
+          "char_end": 12533,
+          "char_count": 219
+        },
+        {
+          "unit_id": "blld-2012:D018",
+          "page": 18,
+          "title": "Nghĩa vụ giao kết hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 12534,
+          "char_end": 13328,
+          "char_count": 794
+        },
+        {
+          "unit_id": "blld-2012:D019",
+          "page": 19,
+          "title": "Nghĩa vụ cung cấp thông tin trước khi giao kết hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 13329,
+          "char_end": 14093,
+          "char_count": 764
+        },
+        {
+          "unit_id": "blld-2012:D020",
+          "page": 20,
+          "title": "Những hành vi người sử dụng lao động không được làm khi giao kết, thực hiện hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 14094,
+          "char_end": 14396,
+          "char_count": 302
+        },
+        {
+          "unit_id": "blld-2012:D021",
+          "page": 21,
+          "title": "Giao kết hợp đồng lao động với nhiều người sử dụng lao động",
+          "chapter": "III",
+          "char_start": 14397,
+          "char_end": 14796,
+          "char_count": 399
+        },
+        {
+          "unit_id": "blld-2012:D022",
+          "page": 22,
+          "title": "Loại hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 14797,
+          "char_end": 16502,
+          "char_count": 1705
+        },
+        {
+          "unit_id": "blld-2012:D023",
+          "page": 23,
+          "title": "Nội dung hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 16503,
+          "char_end": 18007,
+          "char_count": 1504
+        },
+        {
+          "unit_id": "blld-2012:D024",
+          "page": 24,
+          "title": "Phụ lục hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 18008,
+          "char_end": 18615,
+          "char_count": 607
+        },
+        {
+          "unit_id": "blld-2012:D025",
+          "page": 25,
+          "title": "Hiệu lực của hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 18616,
+          "char_end": 18788,
+          "char_count": 172
+        },
+        {
+          "unit_id": "blld-2012:D026",
+          "page": 26,
+          "title": "Thử việc",
+          "chapter": "III",
+          "char_start": 18789,
+          "char_end": 19227,
+          "char_count": 438
+        },
+        {
+          "unit_id": "blld-2012:D027",
+          "page": 27,
+          "title": "Thời gian thử việc",
+          "chapter": "III",
+          "char_start": 19228,
+          "char_end": 19752,
+          "char_count": 524
+        },
+        {
+          "unit_id": "blld-2012:D028",
+          "page": 28,
+          "title": "Tiền lương trong thời gian thử việc",
+          "chapter": "III",
+          "char_start": 19753,
+          "char_end": 19930,
+          "char_count": 177
+        },
+        {
+          "unit_id": "blld-2012:D029",
+          "page": 29,
+          "title": "Kết thúc thời gian thử việc",
+          "chapter": "III",
+          "char_start": 19931,
+          "char_end": 20260,
+          "char_count": 329
+        },
+        {
+          "unit_id": "blld-2012:D030",
+          "page": 30,
+          "title": "Thực hiện công việc theo hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 20295,
+          "char_end": 20530,
+          "char_count": 235
+        },
+        {
+          "unit_id": "blld-2012:D031",
+          "page": 31,
+          "title": "Chuyển người lao động làm công việc khác so với hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 20531,
+          "char_end": 21687,
+          "char_count": 1156
+        },
+        {
+          "unit_id": "blld-2012:D032",
+          "page": 32,
+          "title": "Các trường hợp tạm hoãn thực hiện hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 21688,
+          "char_end": 22139,
+          "char_count": 451
+        },
+        {
+          "unit_id": "blld-2012:D033",
+          "page": 33,
+          "title": "Nhận lại người lao động hết thời hạn tạm hoãn thực hiện hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 22140,
+          "char_end": 22514,
+          "char_count": 374
+        },
+        {
+          "unit_id": "blld-2012:D034",
+          "page": 34,
+          "title": "Người lao động làm việc không trọn thời gian",
+          "chapter": "III",
+          "char_start": 22515,
+          "char_end": 23240,
+          "char_count": 725
+        },
+        {
+          "unit_id": "blld-2012:D035",
+          "page": 35,
+          "title": "Sửa đổi, bổ sung hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 23292,
+          "char_end": 23886,
+          "char_count": 594
+        },
+        {
+          "unit_id": "blld-2012:D036",
+          "page": 36,
+          "title": "Các trường hợp chấm dứt hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 23887,
+          "char_end": 25170,
+          "char_count": 1283
+        },
+        {
+          "unit_id": "blld-2012:D037",
+          "page": 37,
+          "title": "Quyền đơn phương chấm dứt hợp đồng lao động của người lao động",
+          "chapter": "III",
+          "char_start": 25171,
+          "char_end": 27347,
+          "char_count": 2176
+        },
+        {
+          "unit_id": "blld-2012:D038",
+          "page": 38,
+          "title": "Quyền đơn phương chấm dứt hợp đồng lao động của người sử dụng lao động",
+          "chapter": "III",
+          "char_start": 27348,
+          "char_end": 28880,
+          "char_count": 1532
+        },
+        {
+          "unit_id": "blld-2012:D039",
+          "page": 39,
+          "title": "Trường hợp người sử dụng lao động không được thực hiện quyền đơn phương chấm dứt hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 28881,
+          "char_end": 29492,
+          "char_count": 611
+        },
+        {
+          "unit_id": "blld-2012:D040",
+          "page": 40,
+          "title": "Huỷ bỏ việc đơn phương chấm dứt hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 29493,
+          "char_end": 29718,
+          "char_count": 225
+        },
+        {
+          "unit_id": "blld-2012:D041",
+          "page": 41,
+          "title": "Đơn phương chấm dứt hợp đồng lao động trái pháp luật",
+          "chapter": "III",
+          "char_start": 29719,
+          "char_end": 29941,
+          "char_count": 222
+        },
+        {
+          "unit_id": "blld-2012:D042",
+          "page": 42,
+          "title": "Nghĩa vụ của người sử dụng lao động khi đơn phương chấm dứt hợp đồng lao động trái pháp luật",
+          "chapter": "III",
+          "char_start": 29942,
+          "char_end": 31295,
+          "char_count": 1353
+        },
+        {
+          "unit_id": "blld-2012:D043",
+          "page": 43,
+          "title": "Nghĩa vụ của người lao động khi đơn phương chấm dứt hợp đồng lao động trái pháp luật",
+          "chapter": "III",
+          "char_start": 31296,
+          "char_end": 31801,
+          "char_count": 505
+        },
+        {
+          "unit_id": "blld-2012:D044",
+          "page": 44,
+          "title": "Nghĩa vụ của người sử dụng lao động trong trường hợp thay đổi cơ cấu, công nghệ hoặc vì lý do kinh tế",
+          "chapter": "III",
+          "char_start": 31802,
+          "char_end": 33119,
+          "char_count": 1317
+        },
+        {
+          "unit_id": "blld-2012:D045",
+          "page": 45,
+          "title": "Nghĩa vụ của người sử dụng lao động khi sáp nhập, hợp nhất, chia, tách doanh nghiệp, hợp tác xã",
+          "chapter": "III",
+          "char_start": 33120,
+          "char_end": 34042,
+          "char_count": 922
+        },
+        {
+          "unit_id": "blld-2012:D046",
+          "page": 46,
+          "title": "Phương án sử dụng lao động",
+          "chapter": "III",
+          "char_start": 34043,
+          "char_end": 34625,
+          "char_count": 582
+        },
+        {
+          "unit_id": "blld-2012:D047",
+          "page": 47,
+          "title": "Trách nhiệm của người sử dụng lao động khi chấm dứt hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 34626,
+          "char_end": 35607,
+          "char_count": 981
+        },
+        {
+          "unit_id": "blld-2012:D048",
+          "page": 48,
+          "title": "Trợ cấp thôi việc",
+          "chapter": "III",
+          "char_start": 35608,
+          "char_end": 36394,
+          "char_count": 786
+        },
+        {
+          "unit_id": "blld-2012:D049",
+          "page": 49,
+          "title": "Trợ cấp mất việc làm",
+          "chapter": "III",
+          "char_start": 36395,
+          "char_end": 37172,
+          "char_count": 777
+        },
+        {
+          "unit_id": "blld-2012:D050",
+          "page": 50,
+          "title": "Hợp đồng lao động vô hiệu",
+          "chapter": "III",
+          "char_start": 37205,
+          "char_end": 38133,
+          "char_count": 928
+        },
+        {
+          "unit_id": "blld-2012:D051",
+          "page": 51,
+          "title": "Thẩm quyền tuyên bố hợp đồng lao động vô hiệu",
+          "chapter": "III",
+          "char_start": 38134,
+          "char_end": 38370,
+          "char_count": 236
+        },
+        {
+          "unit_id": "blld-2012:D052",
+          "page": 52,
+          "title": "Xử lý hợp đồng lao động vô hiệu",
+          "chapter": "III",
+          "char_start": 38371,
+          "char_end": 39127,
+          "char_count": 756
+        },
+        {
+          "unit_id": "blld-2012:D053",
+          "page": 53,
+          "title": "Cho thuê lại lao động",
+          "chapter": "III",
+          "char_start": 39156,
+          "char_end": 39617,
+          "char_count": 461
+        },
+        {
+          "unit_id": "blld-2012:D054",
+          "page": 54,
+          "title": "Doanh nghiệp cho thuê lại lao động",
+          "chapter": "III",
+          "char_start": 39618,
+          "char_end": 39963,
+          "char_count": 345
+        },
+        {
+          "unit_id": "blld-2012:D055",
+          "page": 55,
+          "title": "Hợp đồng cho thuê lại lao động",
+          "chapter": "III",
+          "char_start": 39964,
+          "char_end": 40794,
+          "char_count": 830
+        },
+        {
+          "unit_id": "blld-2012:D056",
+          "page": 56,
+          "title": "Quyền và nghĩa vụ của doanh nghiệp cho thuê lại lao động",
+          "chapter": "III",
+          "char_start": 40795,
+          "char_end": 42098,
+          "char_count": 1303
+        },
+        {
+          "unit_id": "blld-2012:D057",
+          "page": 57,
+          "title": "Quyền và nghĩa vụ của bên thuê lại lao động",
+          "chapter": "III",
+          "char_start": 42099,
+          "char_end": 43126,
+          "char_count": 1027
+        },
+        {
+          "unit_id": "blld-2012:D058",
+          "page": 58,
+          "title": "Quyền và nghĩa vụ của người lao động thuê lại",
+          "chapter": "III",
+          "char_start": 43127,
+          "char_end": 44026,
+          "char_count": 899
+        },
+        {
+          "unit_id": "blld-2012:D059",
+          "page": 59,
+          "title": "Học nghề và dạy nghề",
+          "chapter": "IV",
+          "char_start": 44097,
+          "char_end": 44544,
+          "char_count": 447
+        },
+        {
+          "unit_id": "blld-2012:D060",
+          "page": 60,
+          "title": "Trách nhiệm của người sử dụng lao động về đào tạo, bồi dưỡng, nâng cao trình độ kỹ năng nghề",
+          "chapter": "IV",
+          "char_start": 44545,
+          "char_end": 45090,
+          "char_count": 545
+        },
+        {
+          "unit_id": "blld-2012:D061",
+          "page": 61,
+          "title": "Học nghề, tập nghề để làm việc cho người sử dụng lao động",
+          "chapter": "IV",
+          "char_start": 45091,
+          "char_end": 46077,
+          "char_count": 986
+        },
+        {
+          "unit_id": "blld-2012:D062",
+          "page": 62,
+          "title": "Hợp đồng đào tạo nghề giữa người sử dụng lao động, người lao động và chi phí đào tạo nghề",
+          "chapter": "IV",
+          "char_start": 46078,
+          "char_end": 47272,
+          "char_count": 1194
+        },
+        {
+          "unit_id": "blld-2012:D063",
+          "page": 63,
+          "title": "Mục đích, hình thức đối thoại tại nơi làm việc",
+          "chapter": "V",
+          "char_start": 47391,
+          "char_end": 47988,
+          "char_count": 597
+        },
+        {
+          "unit_id": "blld-2012:D064",
+          "page": 64,
+          "title": "Nội dung đối thoại tại nơi làm việc",
+          "chapter": "V",
+          "char_start": 47989,
+          "char_end": 48439,
+          "char_count": 450
+        },
+        {
+          "unit_id": "blld-2012:D065",
+          "page": 65,
+          "title": "Tiến hành đối thoại tại nơi làm việc",
+          "chapter": "V",
+          "char_start": 48440,
+          "char_end": 48716,
+          "char_count": 276
+        },
+        {
+          "unit_id": "blld-2012:D066",
+          "page": 66,
+          "title": "Mục đích của thương lượng tập thể",
+          "chapter": "V",
+          "char_start": 48744,
+          "char_end": 49171,
+          "char_count": 427
+        },
+        {
+          "unit_id": "blld-2012:D067",
+          "page": 67,
+          "title": "Nguyên tắc thương lượng tập thể",
+          "chapter": "V",
+          "char_start": 49172,
+          "char_end": 49459,
+          "char_count": 287
+        },
+        {
+          "unit_id": "blld-2012:D068",
+          "page": 68,
+          "title": "Quyền yêu cầu thương lượng tập thể",
+          "chapter": "V",
+          "char_start": 49460,
+          "char_end": 50229,
+          "char_count": 769
+        },
+        {
+          "unit_id": "blld-2012:D069",
+          "page": 69,
+          "title": "Đại diện thương lượng tập thể",
+          "chapter": "V",
+          "char_start": 50230,
+          "char_end": 50856,
+          "char_count": 626
+        },
+        {
+          "unit_id": "blld-2012:D070",
+          "page": 70,
+          "title": "Nội dung thương lượng tập thể",
+          "chapter": "V",
+          "char_start": 50857,
+          "char_end": 51173,
+          "char_count": 316
+        },
+        {
+          "unit_id": "blld-2012:D071",
+          "page": 71,
+          "title": "Quy trình thương lượng tập thể",
+          "chapter": "V",
+          "char_start": 51174,
+          "char_end": 53200,
+          "char_count": 2026
+        },
+        {
+          "unit_id": "blld-2012:D072",
+          "page": 72,
+          "title": "Trách nhiệm của tổ chức công đoàn, tổ chức đại diện người sử dụng lao động và cơ quan quản lý nhà nước về lao động trong thương lượng tập thể",
+          "chapter": "V",
+          "char_start": 53201,
+          "char_end": 53615,
+          "char_count": 414
+        },
+        {
+          "unit_id": "blld-2012:D073",
+          "page": 73,
+          "title": "Thỏa ước lao động tập thể",
+          "chapter": "V",
+          "char_start": 53648,
+          "char_end": 54181,
+          "char_count": 533
+        },
+        {
+          "unit_id": "blld-2012:D074",
+          "page": 74,
+          "title": "Ký kết thỏa ước lao động tập thể",
+          "chapter": "V",
+          "char_start": 54182,
+          "char_end": 55051,
+          "char_count": 869
+        },
+        {
+          "unit_id": "blld-2012:D075",
+          "page": 75,
+          "title": "Gửi thỏa ước lao động tập thể đến cơ quan quản lý nhà nước",
+          "chapter": "V",
+          "char_start": 55052,
+          "char_end": 55480,
+          "char_count": 428
+        },
+        {
+          "unit_id": "blld-2012:D076",
+          "page": 76,
+          "title": "Ngày có hiệu lực của thoả ước lao động tập thể",
+          "chapter": "V",
+          "char_start": 55481,
+          "char_end": 55715,
+          "char_count": 234
+        },
+        {
+          "unit_id": "blld-2012:D077",
+          "page": 77,
+          "title": "Sửa đổi, bổ sung thỏa ước lao động tập thể",
+          "chapter": "V",
+          "char_start": 55716,
+          "char_end": 56568,
+          "char_count": 852
+        },
+        {
+          "unit_id": "blld-2012:D078",
+          "page": 78,
+          "title": "Thoả ước lao động tập thể vô hiệu",
+          "chapter": "V",
+          "char_start": 56569,
+          "char_end": 56939,
+          "char_count": 370
+        },
+        {
+          "unit_id": "blld-2012:D079",
+          "page": 79,
+          "title": "Thẩm quyền tuyên bố thỏa ước lao động tập thể vô hiệu",
+          "chapter": "V",
+          "char_start": 56940,
+          "char_end": 57071,
+          "char_count": 131
+        },
+        {
+          "unit_id": "blld-2012:D080",
+          "page": 80,
+          "title": "Xử lý thoả ước lao động tập thể vô hiệu",
+          "chapter": "V",
+          "char_start": 57072,
+          "char_end": 57380,
+          "char_count": 308
+        },
+        {
+          "unit_id": "blld-2012:D081",
+          "page": 81,
+          "title": "Thoả ước lao động tập thể hết hạn",
+          "chapter": "V",
+          "char_start": 57381,
+          "char_end": 57786,
+          "char_count": 405
+        },
+        {
+          "unit_id": "blld-2012:D082",
+          "page": 82,
+          "title": "Chi phí thương lượng tập thể, ký kết thoả ước lao động tập thể",
+          "chapter": "V",
+          "char_start": 57787,
+          "char_end": 57995,
+          "char_count": 208
+        },
+        {
+          "unit_id": "blld-2012:D083",
+          "page": 83,
+          "title": "Ký kết thoả ước lao động tập thể doanh nghiệp",
+          "chapter": "V",
+          "char_start": 58041,
+          "char_end": 58664,
+          "char_count": 623
+        },
+        {
+          "unit_id": "blld-2012:D084",
+          "page": 84,
+          "title": "Thực hiện thoả ước lao động tập thể doanh nghiệp",
+          "chapter": "V",
+          "char_start": 58665,
+          "char_end": 59728,
+          "char_count": 1063
+        },
+        {
+          "unit_id": "blld-2012:D085",
+          "page": 85,
+          "title": "Thời hạn thỏa ước lao động tập thể doanh nghiệp",
+          "chapter": "V",
+          "char_start": 59729,
+          "char_end": 59970,
+          "char_count": 241
+        },
+        {
+          "unit_id": "blld-2012:D086",
+          "page": 86,
+          "title": "Thực hiện thoả ước lao động tập thể trong trường hợp chuyển quyền sở hữu, quyền quản lý, quyền sử dụng doanh nghiệp, sáp nhập, hợp nhất, chia, tách doanh nghiệp",
+          "chapter": "V",
+          "char_start": 59971,
+          "char_end": 60710,
+          "char_count": 739
+        },
+        {
+          "unit_id": "blld-2012:D087",
+          "page": 87,
+          "title": "Ký kết thoả ước lao động tập thể ngành",
+          "chapter": "V",
+          "char_start": 60749,
+          "char_end": 61271,
+          "char_count": 522
+        },
+        {
+          "unit_id": "blld-2012:D088",
+          "page": 88,
+          "title": "Quan hệ giữa thoả ước lao động tập thể doanh nghiệp với thoả ước lao động tập thể ngành",
+          "chapter": "V",
+          "char_start": 61272,
+          "char_end": 62205,
+          "char_count": 933
+        },
+        {
+          "unit_id": "blld-2012:D089",
+          "page": 89,
+          "title": "Thời hạn thoả ước lao động tập thể ngành",
+          "chapter": "V",
+          "char_start": 62206,
+          "char_end": 62321,
+          "char_count": 115
+        },
+        {
+          "unit_id": "blld-2012:D090",
+          "page": 90,
+          "title": "Tiền lương",
+          "chapter": "VI",
+          "char_start": 62343,
+          "char_end": 62908,
+          "char_count": 565
+        },
+        {
+          "unit_id": "blld-2012:D091",
+          "page": 91,
+          "title": "Mức lương tối thiểu",
+          "chapter": "VI",
+          "char_start": 62909,
+          "char_end": 63674,
+          "char_count": 765
+        },
+        {
+          "unit_id": "blld-2012:D092",
+          "page": 92,
+          "title": "Hội đồng tiền lương quốc gia",
+          "chapter": "VI",
+          "char_start": 63675,
+          "char_end": 64044,
+          "char_count": 369
+        },
+        {
+          "unit_id": "blld-2012:D093",
+          "page": 93,
+          "title": "Xây dựng thang lương, bảng lương và định mức lao động",
+          "chapter": "VI",
+          "char_start": 64045,
+          "char_end": 64778,
+          "char_count": 733
+        },
+        {
+          "unit_id": "blld-2012:D094",
+          "page": 94,
+          "title": "Hình thức trả lương",
+          "chapter": "VI",
+          "char_start": 64779,
+          "char_end": 65380,
+          "char_count": 601
+        },
+        {
+          "unit_id": "blld-2012:D095",
+          "page": 95,
+          "title": "Kỳ hạn trả lương",
+          "chapter": "VI",
+          "char_start": 65381,
+          "char_end": 65905,
+          "char_count": 524
+        },
+        {
+          "unit_id": "blld-2012:D096",
+          "page": 96,
+          "title": "Nguyên tắc trả lương",
+          "chapter": "VI",
+          "char_start": 65906,
+          "char_end": 66266,
+          "char_count": 360
+        },
+        {
+          "unit_id": "blld-2012:D097",
+          "page": 97,
+          "title": "Tiền lương làm thêm giờ, làm việc vào ban đêm",
+          "chapter": "VI",
+          "char_start": 66267,
+          "char_end": 67108,
+          "char_count": 841
+        },
+        {
+          "unit_id": "blld-2012:D098",
+          "page": 98,
+          "title": "Tiền lương ngừng việc",
+          "chapter": "VI",
+          "char_start": 67109,
+          "char_end": 67949,
+          "char_count": 840
+        },
+        {
+          "unit_id": "blld-2012:D099",
+          "page": 99,
+          "title": "Trả lương thông qua người cai thầu",
+          "chapter": "VI",
+          "char_start": 67950,
+          "char_end": 68846,
+          "char_count": 896
+        },
+        {
+          "unit_id": "blld-2012:D100",
+          "page": 100,
+          "title": "Tạm ứng tiền lương",
+          "chapter": "VI",
+          "char_start": 68847,
+          "char_end": 69228,
+          "char_count": 381
+        },
+        {
+          "unit_id": "blld-2012:D101",
+          "page": 101,
+          "title": "Khấu trừ tiền lương",
+          "chapter": "VI",
+          "char_start": 69229,
+          "char_end": 69737,
+          "char_count": 508
+        },
+        {
+          "unit_id": "blld-2012:D102",
+          "page": 102,
+          "title": "Chế độ phụ cấp, trợ cấp, nâng bậc, nâng lương",
+          "chapter": "VI",
+          "char_start": 69738,
+          "char_end": 70016,
+          "char_count": 278
+        },
+        {
+          "unit_id": "blld-2012:D103",
+          "page": 103,
+          "title": "Tiền thưởng",
+          "chapter": "VI",
+          "char_start": 70017,
+          "char_end": 70385,
+          "char_count": 368
+        },
+        {
+          "unit_id": "blld-2012:D104",
+          "page": 104,
+          "title": "Thời giờ làm việc bình thường",
+          "chapter": "VII",
+          "char_start": 70459,
+          "char_end": 71094,
+          "char_count": 635
+        },
+        {
+          "unit_id": "blld-2012:D105",
+          "page": 105,
+          "title": "Giờ làm việc ban đêm",
+          "chapter": "VII",
+          "char_start": 71095,
+          "char_end": 71195,
+          "char_count": 100
+        },
+        {
+          "unit_id": "blld-2012:D106",
+          "page": 106,
+          "title": "Làm thêm giờ",
+          "chapter": "VII",
+          "char_start": 71196,
+          "char_end": 72111,
+          "char_count": 915
+        },
+        {
+          "unit_id": "blld-2012:D107",
+          "page": 107,
+          "title": "Làm thêm giờ trong những trường hợp đặc biệt",
+          "chapter": "VII",
+          "char_start": 72112,
+          "char_end": 72654,
+          "char_count": 542
+        },
+        {
+          "unit_id": "blld-2012:D108",
+          "page": 108,
+          "title": "Nghỉ trong giờ làm việc",
+          "chapter": "VII",
+          "char_start": 72680,
+          "char_end": 73154,
+          "char_count": 474
+        },
+        {
+          "unit_id": "blld-2012:D109",
+          "page": 109,
+          "title": "Nghỉ chuyển ca",
+          "chapter": "VII",
+          "char_start": 73155,
+          "char_end": 73276,
+          "char_count": 121
+        },
+        {
+          "unit_id": "blld-2012:D110",
+          "page": 110,
+          "title": "Nghỉ hằng tuần",
+          "chapter": "VII",
+          "char_start": 73277,
+          "char_end": 73722,
+          "char_count": 445
+        },
+        {
+          "unit_id": "blld-2012:D111",
+          "page": 111,
+          "title": "Nghỉ hằng năm",
+          "chapter": "VII",
+          "char_start": 73723,
+          "char_end": 75085,
+          "char_count": 1362
+        },
+        {
+          "unit_id": "blld-2012:D112",
+          "page": 112,
+          "title": "Ngày nghỉ hằng năm tăng thêm theo thâm niên làm việc",
+          "chapter": "VII",
+          "char_start": 75086,
+          "char_end": 75328,
+          "char_count": 242
+        },
+        {
+          "unit_id": "blld-2012:D113",
+          "page": 113,
+          "title": "Tạm ứng tiền lương, tiền tàu xe đi đường ngày nghỉ hằng năm",
+          "chapter": "VII",
+          "char_start": 75329,
+          "char_end": 75857,
+          "char_count": 528
+        },
+        {
+          "unit_id": "blld-2012:D114",
+          "page": 114,
+          "title": "Thanh toán tiền lương những ngày chưa nghỉ",
+          "chapter": "VII",
+          "char_start": 75858,
+          "char_end": 76279,
+          "char_count": 421
+        },
+        {
+          "unit_id": "blld-2012:D115",
+          "page": 115,
+          "title": "Nghỉ lễ, tết",
+          "chapter": "VII",
+          "char_start": 76335,
+          "char_end": 77102,
+          "char_count": 767
+        },
+        {
+          "unit_id": "blld-2012:D116",
+          "page": 116,
+          "title": "Nghỉ việc riêng, nghỉ không hưởng lương",
+          "chapter": "VII",
+          "char_start": 77103,
+          "char_end": 77763,
+          "char_count": 660
+        },
+        {
+          "unit_id": "blld-2012:D117",
+          "page": 117,
+          "title": "Thời giờ làm việc, thời giờ nghỉ ngơi đối với người làm công việc có tính chất đặc biệt",
+          "chapter": "VII",
+          "char_start": 77858,
+          "char_end": 78586,
+          "char_count": 728
+        },
+        {
+          "unit_id": "blld-2012:D118",
+          "page": 118,
+          "title": "Kỷ luật lao động",
+          "chapter": "VIII",
+          "char_start": 78661,
+          "char_end": 78819,
+          "char_count": 158
+        },
+        {
+          "unit_id": "blld-2012:D119",
+          "page": 119,
+          "title": "Nội quy lao động",
+          "chapter": "VIII",
+          "char_start": 78820,
+          "char_end": 79750,
+          "char_count": 930
+        },
+        {
+          "unit_id": "blld-2012:D120",
+          "page": 120,
+          "title": "Đăng ký nội quy lao động",
+          "chapter": "VIII",
+          "char_start": 79751,
+          "char_end": 80289,
+          "char_count": 538
+        },
+        {
+          "unit_id": "blld-2012:D121",
+          "page": 121,
+          "title": "Hồ sơ đăng ký nội quy lao động",
+          "chapter": "VIII",
+          "char_start": 80290,
+          "char_end": 80618,
+          "char_count": 328
+        },
+        {
+          "unit_id": "blld-2012:D122",
+          "page": 122,
+          "title": "Hiệu lực của nội quy lao động",
+          "chapter": "VIII",
+          "char_start": 80619,
+          "char_end": 80870,
+          "char_count": 251
+        },
+        {
+          "unit_id": "blld-2012:D123",
+          "page": 123,
+          "title": "Nguyên tắc, trình tự xử lý kỷ luật lao động",
+          "chapter": "VIII",
+          "char_start": 80871,
+          "char_end": 82286,
+          "char_count": 1415
+        },
+        {
+          "unit_id": "blld-2012:D124",
+          "page": 124,
+          "title": "Thời hiệu xử lý kỷ luật lao động",
+          "chapter": "VIII",
+          "char_start": 82287,
+          "char_end": 83265,
+          "char_count": 978
+        },
+        {
+          "unit_id": "blld-2012:D125",
+          "page": 125,
+          "title": "Hình thức xử lý kỷ luật lao động",
+          "chapter": "VIII",
+          "char_start": 83266,
+          "char_end": 83398,
+          "char_count": 132
+        },
+        {
+          "unit_id": "blld-2012:D126",
+          "page": 126,
+          "title": "Áp dụng hình thức xử lý kỷ luật sa thải",
+          "chapter": "VIII",
+          "char_start": 83399,
+          "char_end": 84560,
+          "char_count": 1161
+        },
+        {
+          "unit_id": "blld-2012:D127",
+          "page": 127,
+          "title": "Xoá kỷ luật, giảm thời hạn chấp hành kỷ luật lao động",
+          "chapter": "VIII",
+          "char_start": 84561,
+          "char_end": 85143,
+          "char_count": 582
+        },
+        {
+          "unit_id": "blld-2012:D128",
+          "page": 128,
+          "title": "Những quy định cấm khi xử lý kỷ luật lao động",
+          "chapter": "VIII",
+          "char_start": 85144,
+          "char_end": 85436,
+          "char_count": 292
+        },
+        {
+          "unit_id": "blld-2012:D129",
+          "page": 129,
+          "title": "Tạm đình chỉ công việc",
+          "chapter": "VIII",
+          "char_start": 85437,
+          "char_end": 86422,
+          "char_count": 985
+        },
+        {
+          "unit_id": "blld-2012:D130",
+          "page": 130,
+          "title": "Bồi thường thiệt hại",
+          "chapter": "VIII",
+          "char_start": 86450,
+          "char_end": 87562,
+          "char_count": 1112
+        },
+        {
+          "unit_id": "blld-2012:D131",
+          "page": 131,
+          "title": "Nguyên tắc và trình tự, thủ tục xử lý bồi thường thiệt hại",
+          "chapter": "VIII",
+          "char_start": 87563,
+          "char_end": 87935,
+          "char_count": 372
+        },
+        {
+          "unit_id": "blld-2012:D132",
+          "page": 132,
+          "title": "Khiếu nại về kỷ luật lao động, trách nhiệm vật chất",
+          "chapter": "VIII",
+          "char_start": 87936,
+          "char_end": 88317,
+          "char_count": 381
+        },
+        {
+          "unit_id": "blld-2012:D133",
+          "page": 133,
+          "title": "Tuân thủ pháp luật về an toàn lao động, vệ sinh lao động",
+          "chapter": "IX",
+          "char_start": 88428,
+          "char_end": 88651,
+          "char_count": 223
+        },
+        {
+          "unit_id": "blld-2012:D134",
+          "page": 134,
+          "title": "Chính sách của nhà nước về an toàn lao động, vệ sinh lao động",
+          "chapter": "IX",
+          "char_start": 88652,
+          "char_end": 88960,
+          "char_count": 308
+        },
+        {
+          "unit_id": "blld-2012:D135",
+          "page": 135,
+          "title": "Chương trình an toàn lao động, vệ sinh lao động",
+          "chapter": "IX",
+          "char_start": 88961,
+          "char_end": 89306,
+          "char_count": 345
+        },
+        {
+          "unit_id": "blld-2012:D136",
+          "page": 136,
+          "title": "Quy chuẩn kỹ thuật quốc gia về an toàn lao động, vệ sinh lao động",
+          "chapter": "IX",
+          "char_start": 89307,
+          "char_end": 89866,
+          "char_count": 559
+        },
+        {
+          "unit_id": "blld-2012:D137",
+          "page": 137,
+          "title": "Bảo đảm an toàn lao động, vệ sinh lao động tại nơi làm việc",
+          "chapter": "IX",
+          "char_start": 89867,
+          "char_end": 90673,
+          "char_count": 806
+        },
+        {
+          "unit_id": "blld-2012:D138",
+          "page": 138,
+          "title": "Nghĩa vụ của người sử dụng lao động, người lao động đối với công tác an toàn lao động, vệ sinh lao động",
+          "chapter": "IX",
+          "char_start": 90674,
+          "char_end": 92487,
+          "char_count": 1813
+        },
+        {
+          "unit_id": "blld-2012:D139",
+          "page": 139,
+          "title": "Người làm công tác an toàn lao động, vệ sinh lao động",
+          "chapter": "IX",
+          "char_start": 92529,
+          "char_end": 93066,
+          "char_count": 537
+        },
+        {
+          "unit_id": "blld-2012:D140",
+          "page": 140,
+          "title": "Xử lý sự cố, ứng cứu khẩn cấp",
+          "chapter": "IX",
+          "char_start": 93067,
+          "char_end": 94003,
+          "char_count": 936
+        },
+        {
+          "unit_id": "blld-2012:D141",
+          "page": 141,
+          "title": "Bồi dưỡng bằng hiện vật đối với người lao động làm việc trong điều kiện có yếu tố nguy hiểm, độc hại",
+          "chapter": "IX",
+          "char_start": 94004,
+          "char_end": 94281,
+          "char_count": 277
+        },
+        {
+          "unit_id": "blld-2012:D142",
+          "page": 142,
+          "title": "Tai nạn lao động",
+          "chapter": "IX",
+          "char_start": 94282,
+          "char_end": 94879,
+          "char_count": 597
+        },
+        {
+          "unit_id": "blld-2012:D143",
+          "page": 143,
+          "title": "Bệnh nghề nghiệp",
+          "chapter": "IX",
+          "char_start": 94880,
+          "char_end": 95344,
+          "char_count": 464
+        },
+        {
+          "unit_id": "blld-2012:D144",
+          "page": 144,
+          "title": "Trách nhiệm của người sử dụng lao động đối với người bị tai nạn lao động, bệnh nghề nghiệp",
+          "chapter": "IX",
+          "char_start": 95345,
+          "char_end": 95991,
+          "char_count": 646
+        },
+        {
+          "unit_id": "blld-2012:D145",
+          "page": 145,
+          "title": "Quyền của người lao động bị tai nạn lao động, bệnh nghề nghiệp",
+          "chapter": "IX",
+          "char_start": 95992,
+          "char_end": 97347,
+          "char_count": 1355
+        },
+        {
+          "unit_id": "blld-2012:D146",
+          "page": 146,
+          "title": "Các hành vi bị cấm trong an toàn lao động, vệ sinh lao động",
+          "chapter": "IX",
+          "char_start": 97348,
+          "char_end": 97554,
+          "char_count": 206
+        },
+        {
+          "unit_id": "blld-2012:D147",
+          "page": 147,
+          "title": "Kiểm định máy, thiết bị, vật tư có yêu cầu nghiêm ngặt về an toàn lao động",
+          "chapter": "IX",
+          "char_start": 97607,
+          "char_end": 98155,
+          "char_count": 548
+        },
+        {
+          "unit_id": "blld-2012:D148",
+          "page": 148,
+          "title": "Kế hoạch an toàn lao động, vệ sinh lao động",
+          "chapter": "IX",
+          "char_start": 98156,
+          "char_end": 98383,
+          "char_count": 227
+        },
+        {
+          "unit_id": "blld-2012:D149",
+          "page": 149,
+          "title": "Phương tiện bảo vệ cá nhân trong lao động",
+          "chapter": "IX",
+          "char_start": 98384,
+          "char_end": 98728,
+          "char_count": 344
+        },
+        {
+          "unit_id": "blld-2012:D150",
+          "page": 150,
+          "title": "Huấn luyện về an toàn lao động, vệ sinh lao động",
+          "chapter": "IX",
+          "char_start": 98729,
+          "char_end": 99892,
+          "char_count": 1163
+        },
+        {
+          "unit_id": "blld-2012:D151",
+          "page": 151,
+          "title": "Thông tin về an toàn lao động, vệ sinh lao động",
+          "chapter": "IX",
+          "char_start": 99893,
+          "char_end": 100169,
+          "char_count": 276
+        },
+        {
+          "unit_id": "blld-2012:D152",
+          "page": 152,
+          "title": "Chăm sóc sức khỏe cho người lao động",
+          "chapter": "IX",
+          "char_start": 100170,
+          "char_end": 101562,
+          "char_count": 1392
+        },
+        {
+          "unit_id": "blld-2012:D153",
+          "page": 153,
+          "title": "Chính sách của Nhà nước đối với lao động nữ",
+          "chapter": "X",
+          "char_start": 101613,
+          "char_end": 102600,
+          "char_count": 987
+        },
+        {
+          "unit_id": "blld-2012:D154",
+          "page": 154,
+          "title": "Nghĩa vụ của người sử dụng lao động đối với lao động nữ",
+          "chapter": "X",
+          "char_start": 102601,
+          "char_end": 103154,
+          "char_count": 553
+        },
+        {
+          "unit_id": "blld-2012:D155",
+          "page": 155,
+          "title": "Bảo vệ thai sản đối với lao động nữ",
+          "chapter": "X",
+          "char_start": 103155,
+          "char_end": 104456,
+          "char_count": 1301
+        },
+        {
+          "unit_id": "blld-2012:D156",
+          "page": 156,
+          "title": "Quyền đơn phương chấm dứt, tạm hoãn hợp đồng lao động của lao động nữ mang thai",
+          "chapter": "X",
+          "char_start": 104457,
+          "char_end": 104921,
+          "char_count": 464
+        },
+        {
+          "unit_id": "blld-2012:D157",
+          "page": 157,
+          "title": "Nghỉ thai sản",
+          "chapter": "X",
+          "char_start": 104922,
+          "char_end": 106011,
+          "char_count": 1089
+        },
+        {
+          "unit_id": "blld-2012:D158",
+          "page": 158,
+          "title": "Bảo đảm việc làm cho lao động nữ nghỉ thai sản",
+          "chapter": "X",
+          "char_start": 106012,
+          "char_end": 106373,
+          "char_count": 361
+        },
+        {
+          "unit_id": "blld-2012:D159",
+          "page": 159,
+          "title": "Trợ cấp khi nghỉ để chăm sóc con ốm, khám thai, thực hiện các biện pháp tránh thai",
+          "chapter": "X",
+          "char_start": 106374,
+          "char_end": 106758,
+          "char_count": 384
+        },
+        {
+          "unit_id": "blld-2012:D160",
+          "page": 160,
+          "title": "Công việc không được sử dụng lao động nữ",
+          "chapter": "X",
+          "char_start": 106759,
+          "char_end": 107060,
+          "char_count": 301
+        },
+        {
+          "unit_id": "blld-2012:D161",
+          "page": 161,
+          "title": "Lao động chưa thành niên",
+          "chapter": "XI",
+          "char_start": 107185,
+          "char_end": 107282,
+          "char_count": 97
+        },
+        {
+          "unit_id": "blld-2012:D162",
+          "page": 162,
+          "title": "Sử dụng người lao động chưa thành niên",
+          "chapter": "XI",
+          "char_start": 107283,
+          "char_end": 107903,
+          "char_count": 620
+        },
+        {
+          "unit_id": "blld-2012:D163",
+          "page": 163,
+          "title": "Nguyên tắc sử dụng lao động là người chưa thành niên",
+          "chapter": "XI",
+          "char_start": 107904,
+          "char_end": 108976,
+          "char_count": 1072
+        },
+        {
+          "unit_id": "blld-2012:D164",
+          "page": 164,
+          "title": "Sử dụng lao động dưới 15 tuổi",
+          "chapter": "XI",
+          "char_start": 108977,
+          "char_end": 109856,
+          "char_count": 879
+        },
+        {
+          "unit_id": "blld-2012:D165",
+          "page": 165,
+          "title": "Các công việc và nơi làm việc cấm sử dụng lao động là người chưa thành niên",
+          "chapter": "XI",
+          "char_start": 109857,
+          "char_end": 110875,
+          "char_count": 1018
+        },
+        {
+          "unit_id": "blld-2012:D166",
+          "page": 166,
+          "title": "Người lao động cao tuổi",
+          "chapter": "XI",
+          "char_start": 110906,
+          "char_end": 111326,
+          "char_count": 420
+        },
+        {
+          "unit_id": "blld-2012:D167",
+          "page": 167,
+          "title": "Sử dụng người lao động cao tuổi",
+          "chapter": "XI",
+          "char_start": 111327,
+          "char_end": 112106,
+          "char_count": 779
+        },
+        {
+          "unit_id": "blld-2012:D168",
+          "page": 168,
+          "title": "Người lao động Việt Nam đi làm việc ở nước ngoài, lao động cho các tổ chức, cá nhân nước ngoài tại Việt Nam",
+          "chapter": "XI",
+          "char_start": 112273,
+          "char_end": 113064,
+          "char_count": 791
+        },
+        {
+          "unit_id": "blld-2012:D169",
+          "page": 169,
+          "title": "Điều kiện của lao động là công dân nước ngoài vào làm việc tại Việt Nam",
+          "chapter": "XI",
+          "char_start": 113065,
+          "char_end": 113825,
+          "char_count": 760
+        },
+        {
+          "unit_id": "blld-2012:D170",
+          "page": 170,
+          "title": "Điều kiện tuyển dụng lao động là công dân nước ngoài",
+          "chapter": "XI",
+          "char_start": 113826,
+          "char_end": 114417,
+          "char_count": 591
+        },
+        {
+          "unit_id": "blld-2012:D171",
+          "page": 171,
+          "title": "Giấy phép lao động cho lao động là công dân nước ngoài làm việc tại Việt Nam",
+          "chapter": "XI",
+          "char_start": 114418,
+          "char_end": 114988,
+          "char_count": 570
+        },
+        {
+          "unit_id": "blld-2012:D172",
+          "page": 172,
+          "title": "Công dân nước ngoài làm việc tại Việt Nam không thuộc diện cấp giấy phép lao động",
+          "chapter": "XI",
+          "char_start": 114989,
+          "char_end": 116082,
+          "char_count": 1093
+        },
+        {
+          "unit_id": "blld-2012:D173",
+          "page": 173,
+          "title": "Thời hạn của giấy phép lao động",
+          "chapter": "XI",
+          "char_start": 116083,
+          "char_end": 116174,
+          "char_count": 91
+        },
+        {
+          "unit_id": "blld-2012:D174",
+          "page": 174,
+          "title": "Các trường hợp giấy phép lao động hết hiệu lực",
+          "chapter": "XI",
+          "char_start": 116175,
+          "char_end": 116922,
+          "char_count": 747
+        },
+        {
+          "unit_id": "blld-2012:D175",
+          "page": 175,
+          "title": "Cấp, cấp lại, thu hồi giấy phép lao động",
+          "chapter": "XI",
+          "char_start": 116923,
+          "char_end": 117127,
+          "char_count": 204
+        },
+        {
+          "unit_id": "blld-2012:D176",
+          "page": 176,
+          "title": "Chính sách của Nhà nước đối với lao động là người khuyết tật",
+          "chapter": "XI",
+          "char_start": 117163,
+          "char_end": 117633,
+          "char_count": 470
+        },
+        {
+          "unit_id": "blld-2012:D177",
+          "page": 177,
+          "title": "Sử dụng lao động là người khuyết tật",
+          "chapter": "XI",
+          "char_start": 117634,
+          "char_end": 118022,
+          "char_count": 388
+        },
+        {
+          "unit_id": "blld-2012:D178",
+          "page": 178,
+          "title": "Các hành vi bị cấm khi sử dụng lao động là người khuyết tật",
+          "chapter": "XI",
+          "char_start": 118023,
+          "char_end": 118427,
+          "char_count": 404
+        },
+        {
+          "unit_id": "blld-2012:D179",
+          "page": 179,
+          "title": "Lao động là người giúp việc gia đình",
+          "chapter": "XI",
+          "char_start": 118471,
+          "char_end": 119000,
+          "char_count": 529
+        },
+        {
+          "unit_id": "blld-2012:D180",
+          "page": 180,
+          "title": "Hợp đồng lao động đối với lao động là người giúp việc gia đình",
+          "chapter": "XI",
+          "char_start": 119001,
+          "char_end": 119507,
+          "char_count": 506
+        },
+        {
+          "unit_id": "blld-2012:D181",
+          "page": 181,
+          "title": "Nghĩa vụ của người sử dụng lao động",
+          "chapter": "XI",
+          "char_start": 119508,
+          "char_end": 120158,
+          "char_count": 650
+        },
+        {
+          "unit_id": "blld-2012:D182",
+          "page": 182,
+          "title": "Nghĩa vụ của lao động là người giúp việc gia đình",
+          "chapter": "XI",
+          "char_start": 120159,
+          "char_end": 120769,
+          "char_count": 610
+        },
+        {
+          "unit_id": "blld-2012:D183",
+          "page": 183,
+          "title": "Những hành vi bị nghiêm cấm đối với người sử dụng lao động",
+          "chapter": "XI",
+          "char_start": 120770,
+          "char_end": 121065,
+          "char_count": 295
+        },
+        {
+          "unit_id": "blld-2012:D184",
+          "page": 184,
+          "title": "Người lao động làm việc trong lĩnh vực nghệ thuật, thể dục thể thao",
+          "chapter": "XI",
+          "char_start": 121093,
+          "char_end": 121475,
+          "char_count": 382
+        },
+        {
+          "unit_id": "blld-2012:D185",
+          "page": 185,
+          "title": "Người lao động nhận công việc về làm tại nhà",
+          "chapter": "XI",
+          "char_start": 121476,
+          "char_end": 121741,
+          "char_count": 265
+        },
+        {
+          "unit_id": "blld-2012:D186",
+          "page": 186,
+          "title": "Tham gia bảo hiểm xã hội, bảo hiểm y tế",
+          "chapter": "XII",
+          "char_start": 121769,
+          "char_end": 122744,
+          "char_count": 975
+        },
+        {
+          "unit_id": "blld-2012:D187",
+          "page": 187,
+          "title": "Tuổi nghỉ hưu",
+          "chapter": "XII",
+          "char_start": 122745,
+          "char_end": 123533,
+          "char_count": 788
+        },
+        {
+          "unit_id": "blld-2012:D188",
+          "page": 188,
+          "title": "Vai trò của tổ chức công đoàn trong quan hệ lao động",
+          "chapter": "XIII",
+          "char_start": 123556,
+          "char_end": 124737,
+          "char_count": 1181
+        },
+        {
+          "unit_id": "blld-2012:D189",
+          "page": 189,
+          "title": "Thành lập, gia nhập và hoạt động công đoàn tại doanh nghiệp, cơ quan, tổ chức",
+          "chapter": "XIII",
+          "char_start": 124738,
+          "char_end": 125455,
+          "char_count": 717
+        },
+        {
+          "unit_id": "blld-2012:D190",
+          "page": 190,
+          "title": "Các hành vi bị nghiêm cấm đối với người sử dụng lao động liên quan đến thành lập, gia nhập và hoạt động công đoàn",
+          "chapter": "XIII",
+          "char_start": 125456,
+          "char_end": 126007,
+          "char_count": 551
+        },
+        {
+          "unit_id": "blld-2012:D191",
+          "page": 191,
+          "title": "Quyền của cán bộ công đoàn cơ sở trong quan hệ lao động",
+          "chapter": "XIII",
+          "char_start": 126008,
+          "char_end": 126426,
+          "char_count": 418
+        },
+        {
+          "unit_id": "blld-2012:D192",
+          "page": 192,
+          "title": "Trách nhiệm của người sử dụng lao động đối với tổ chức công đoàn",
+          "chapter": "XIII",
+          "char_start": 126427,
+          "char_end": 128164,
+          "char_count": 1737
+        },
+        {
+          "unit_id": "blld-2012:D193",
+          "page": 193,
+          "title": "Bảo đảm điều kiện hoạt động công đoàn tại doanh nghiệp, cơ quan, tổ chức",
+          "chapter": "XIII",
+          "char_start": 128165,
+          "char_end": 128860,
+          "char_count": 695
+        },
+        {
+          "unit_id": "blld-2012:D194",
+          "page": 194,
+          "title": "Nguyên tắc giải quyết tranh chấp lao động",
+          "chapter": "XIV",
+          "char_start": 128964,
+          "char_end": 129959,
+          "char_count": 995
+        },
+        {
+          "unit_id": "blld-2012:D195",
+          "page": 195,
+          "title": "Trách nhiệm của cơ quan, tổ chức, cá nhân trong giải quyết tranh chấp lao động",
+          "chapter": "XIV",
+          "char_start": 129960,
+          "char_end": 130548,
+          "char_count": 588
+        },
+        {
+          "unit_id": "blld-2012:D196",
+          "page": 196,
+          "title": "Quyền và nghĩa vụ của hai bên trong giải quyết tranh chấp lao động",
+          "chapter": "XIV",
+          "char_start": 130549,
+          "char_end": 131186,
+          "char_count": 637
+        },
+        {
+          "unit_id": "blld-2012:D197",
+          "page": 197,
+          "title": "Quyền của cơ quan, tổ chức, cá nhân có thẩm quyền giải quyết tranh chấp lao động",
+          "chapter": "XIV",
+          "char_start": 131187,
+          "char_end": 131560,
+          "char_count": 373
+        },
+        {
+          "unit_id": "blld-2012:D198",
+          "page": 198,
+          "title": "Hòa giải viên lao động",
+          "chapter": "XIV",
+          "char_start": 131561,
+          "char_end": 131854,
+          "char_count": 293
+        },
+        {
+          "unit_id": "blld-2012:D199",
+          "page": 199,
+          "title": "Hội đồng trọng tài lao động",
+          "chapter": "XIV",
+          "char_start": 131855,
+          "char_end": 132902,
+          "char_count": 1047
+        },
+        {
+          "unit_id": "blld-2012:D200",
+          "page": 200,
+          "title": "Cơ quan, cá nhân có thẩm quyền giải quyết tranh chấp lao động cá nhân",
+          "chapter": "XIV",
+          "char_start": 132971,
+          "char_end": 133097,
+          "char_count": 126
+        },
+        {
+          "unit_id": "blld-2012:D201",
+          "page": 201,
+          "title": "Trình tự, thủ tục hòa giải tranh chấp lao động cá nhân của hòa giải viên lao động",
+          "chapter": "XIV",
+          "char_start": 133098,
+          "char_end": 135303,
+          "char_count": 2205
+        },
+        {
+          "unit_id": "blld-2012:D202",
+          "page": 202,
+          "title": "Thời hiệu yêu cầu giải quyết tranh chấp lao động cá nhân",
+          "chapter": "XIV",
+          "char_start": 135304,
+          "char_end": 135768,
+          "char_count": 464
+        },
+        {
+          "unit_id": "blld-2012:D203",
+          "page": 203,
+          "title": "Cơ quan, tổ chức, cá nhân có thẩm quyền giải quyết tranh chấp lao động tập thể",
+          "chapter": "XIV",
+          "char_start": 135837,
+          "char_end": 136362,
+          "char_count": 525
+        },
+        {
+          "unit_id": "blld-2012:D204",
+          "page": 204,
+          "title": "Trình tự giải quyết tranh chấp lao động tập thể tại cơ sở",
+          "chapter": "XIV",
+          "char_start": 136363,
+          "char_end": 137727,
+          "char_count": 1364
+        },
+        {
+          "unit_id": "blld-2012:D205",
+          "page": 205,
+          "title": "Giải quyết tranh chấp lao động tập thể về quyền của Chủ tịch Ủy ban nhân dân cấp huyện",
+          "chapter": "XIV",
+          "char_start": 137728,
+          "char_end": 138661,
+          "char_count": 933
+        },
+        {
+          "unit_id": "blld-2012:D206",
+          "page": 206,
+          "title": "Giải quyết tranh chấp lao động tập thể về lợi ích của Hội đồng trọng tài lao động",
+          "chapter": "XIV",
+          "char_start": 138662,
+          "char_end": 140332,
+          "char_count": 1670
+        },
+        {
+          "unit_id": "blld-2012:D207",
+          "page": 207,
+          "title": "Thời hiệu yêu cầu giải quyết tranh chấp lao động tập thể về quyền",
+          "chapter": "XIV",
+          "char_start": 140333,
+          "char_end": 140594,
+          "char_count": 261
+        },
+        {
+          "unit_id": "blld-2012:D208",
+          "page": 208,
+          "title": "Cấm hành động đơn phương trong khi tranh chấp lao động tập thể đang được giải quyết",
+          "chapter": "XIV",
+          "char_start": 140595,
+          "char_end": 140897,
+          "char_count": 302
+        },
+        {
+          "unit_id": "blld-2012:D209",
+          "page": 209,
+          "title": "Đình công",
+          "chapter": "XIV",
+          "char_start": 140938,
+          "char_end": 141263,
+          "char_count": 325
+        },
+        {
+          "unit_id": "blld-2012:D210",
+          "page": 210,
+          "title": "Tổ chức và lãnh đạo đình công",
+          "chapter": "XIV",
+          "char_start": 141264,
+          "char_end": 141550,
+          "char_count": 286
+        },
+        {
+          "unit_id": "blld-2012:D211",
+          "page": 211,
+          "title": "Trình tự đình công",
+          "chapter": "XIV",
+          "char_start": 141551,
+          "char_end": 141663,
+          "char_count": 112
+        },
+        {
+          "unit_id": "blld-2012:D212",
+          "page": 212,
+          "title": "Thủ tục lấy ý kiến tập thể lao động",
+          "chapter": "XIV",
+          "char_start": 141664,
+          "char_end": 142415,
+          "char_count": 751
+        },
+        {
+          "unit_id": "blld-2012:D213",
+          "page": 213,
+          "title": "Thông báo thời điểm bắt đầu đình công",
+          "chapter": "XIV",
+          "char_start": 142416,
+          "char_end": 143343,
+          "char_count": 927
+        },
+        {
+          "unit_id": "blld-2012:D214",
+          "page": 214,
+          "title": "Quyền của các bên trước và trong quá trình đình công",
+          "chapter": "XIV",
+          "char_start": 143344,
+          "char_end": 144187,
+          "char_count": 843
+        },
+        {
+          "unit_id": "blld-2012:D215",
+          "page": 215,
+          "title": "Những trường hợp đình công bất hợp pháp",
+          "chapter": "XIV",
+          "char_start": 144188,
+          "char_end": 144673,
+          "char_count": 485
+        },
+        {
+          "unit_id": "blld-2012:D216",
+          "page": 216,
+          "title": "Thông báo quyết định đóng cửa tạm thời nơi làm việc",
+          "chapter": "XIV",
+          "char_start": 144674,
+          "char_end": 145175,
+          "char_count": 501
+        },
+        {
+          "unit_id": "blld-2012:D217",
+          "page": 217,
+          "title": "Trường hợp cấm đóng cửa tạm thời nơi làm việc",
+          "chapter": "XIV",
+          "char_start": 145176,
+          "char_end": 145359,
+          "char_count": 183
+        },
+        {
+          "unit_id": "blld-2012:D218",
+          "page": 218,
+          "title": "Tiền lương và các quyền lợi hợp pháp khác của người lao động trong thời gian đình công",
+          "chapter": "XIV",
+          "char_start": 145360,
+          "char_end": 145835,
+          "char_count": 475
+        },
+        {
+          "unit_id": "blld-2012:D219",
+          "page": 219,
+          "title": "Hành vi bị cấm trước, trong và sau khi đình công",
+          "chapter": "XIV",
+          "char_start": 145836,
+          "char_end": 146585,
+          "char_count": 749
+        },
+        {
+          "unit_id": "blld-2012:D220",
+          "page": 220,
+          "title": "Trường hợp không được đình công",
+          "chapter": "XIV",
+          "char_start": 146586,
+          "char_end": 147042,
+          "char_count": 456
+        },
+        {
+          "unit_id": "blld-2012:D221",
+          "page": 221,
+          "title": "Quyết định hoãn, ngừng đình công",
+          "chapter": "XIV",
+          "char_start": 147043,
+          "char_end": 147430,
+          "char_count": 387
+        },
+        {
+          "unit_id": "blld-2012:D222",
+          "page": 222,
+          "title": "Xử lý cuộc đình công không đúng trình tự, thủ tục",
+          "chapter": "XIV",
+          "char_start": 147431,
+          "char_end": 148211,
+          "char_count": 780
+        },
+        {
+          "unit_id": "blld-2012:D223",
+          "page": 223,
+          "title": "Yêu cầu Toà án xét tính hợp pháp của cuộc đình công",
+          "chapter": "XIV",
+          "char_start": 148262,
+          "char_end": 149146,
+          "char_count": 884
+        },
+        {
+          "unit_id": "blld-2012:D224",
+          "page": 224,
+          "title": "Thủ tục gửi đơn yêu cầu Toà án xét tính hợp pháp của cuộc đình công",
+          "chapter": "XIV",
+          "char_start": 149147,
+          "char_end": 149511,
+          "char_count": 364
+        },
+        {
+          "unit_id": "blld-2012:D225",
+          "page": 225,
+          "title": "Thẩm quyền xét tính hợp pháp của cuộc đình công",
+          "chapter": "XIV",
+          "char_start": 149512,
+          "char_end": 149788,
+          "char_count": 276
+        },
+        {
+          "unit_id": "blld-2012:D226",
+          "page": 226,
+          "title": "Thành phần hội đồng xét tính hợp pháp của cuộc đình công",
+          "chapter": "XIV",
+          "char_start": 149789,
+          "char_end": 150217,
+          "char_count": 428
+        },
+        {
+          "unit_id": "blld-2012:D227",
+          "page": 227,
+          "title": "Thủ tục giải quyết đơn yêu cầu xét tính hợp pháp của cuộc đình công",
+          "chapter": "XIV",
+          "char_start": 150218,
+          "char_end": 151065,
+          "char_count": 847
+        },
+        {
+          "unit_id": "blld-2012:D228",
+          "page": 228,
+          "title": "Đình chỉ việc xét tính hợp pháp của cuộc đình công",
+          "chapter": "XIV",
+          "char_start": 151066,
+          "char_end": 151434,
+          "char_count": 368
+        },
+        {
+          "unit_id": "blld-2012:D229",
+          "page": 229,
+          "title": "Những người tham gia phiên họp xét tính hợp pháp của cuộc đình công",
+          "chapter": "XIV",
+          "char_start": 151435,
+          "char_end": 151751,
+          "char_count": 316
+        },
+        {
+          "unit_id": "blld-2012:D230",
+          "page": 230,
+          "title": "Hoãn phiên họp xét tính hợp pháp của cuộc đình công",
+          "chapter": "XIV",
+          "char_start": 151752,
+          "char_end": 152189,
+          "char_count": 437
+        },
+        {
+          "unit_id": "blld-2012:D231",
+          "page": 231,
+          "title": "Trình tự phiên họp xét tính hợp pháp của cuộc đình công",
+          "chapter": "XIV",
+          "char_start": 152190,
+          "char_end": 152726,
+          "char_count": 536
+        },
+        {
+          "unit_id": "blld-2012:D232",
+          "page": 232,
+          "title": "Quyết định về tính hợp pháp của cuộc đình công",
+          "chapter": "XIV",
+          "char_start": 152727,
+          "char_end": 153470,
+          "char_count": 743
+        },
+        {
+          "unit_id": "blld-2012:D233",
+          "page": 233,
+          "title": "Xử lý vi phạm",
+          "chapter": "XIV",
+          "char_start": 153471,
+          "char_end": 154398,
+          "char_count": 927
+        },
+        {
+          "unit_id": "blld-2012:D234",
+          "page": 234,
+          "title": "Trình tự, thủ tục giải quyết khiếu nại quyết định về tính hợp pháp của cuộc đình công",
+          "chapter": "XIV",
+          "char_start": 154399,
+          "char_end": 155416,
+          "char_count": 1017
+        },
+        {
+          "unit_id": "blld-2012:D235",
+          "page": 235,
+          "title": "Nội dung quản lý nhà nước về lao động",
+          "chapter": "XV",
+          "char_start": 155456,
+          "char_end": 156465,
+          "char_count": 1009
+        },
+        {
+          "unit_id": "blld-2012:D236",
+          "page": 236,
+          "title": "Thẩm quyền quản lý nhà nước về lao động",
+          "chapter": "XV",
+          "char_start": 156466,
+          "char_end": 156977,
+          "char_count": 511
+        },
+        {
+          "unit_id": "blld-2012:D237",
+          "page": 237,
+          "title": "Nhiệm vụ thanh tra nhà nước về lao động",
+          "chapter": "XVI",
+          "char_start": 157047,
+          "char_end": 157675,
+          "char_count": 628
+        },
+        {
+          "unit_id": "blld-2012:D238",
+          "page": 238,
+          "title": "Thanh tra lao động",
+          "chapter": "XVI",
+          "char_start": 157676,
+          "char_end": 158193,
+          "char_count": 517
+        },
+        {
+          "unit_id": "blld-2012:D239",
+          "page": 239,
+          "title": "Xử lý vi phạm trong lĩnh vực lao động",
+          "chapter": "XVI",
+          "char_start": 158194,
+          "char_end": 158492,
+          "char_count": 298
+        },
+        {
+          "unit_id": "blld-2012:D240",
+          "page": 240,
+          "title": "Hiệu lực của Bộ luật lao động",
+          "chapter": "XVII",
+          "char_start": 158525,
+          "char_end": 160110,
+          "char_count": 1585
+        },
+        {
+          "unit_id": "blld-2012:D241",
+          "page": 241,
+          "title": "Hiệu lực đối với nơi sử dụng dưới 10 người lao động",
+          "chapter": "XVII",
+          "char_start": 160111,
+          "char_end": 160353,
+          "char_count": 242
+        },
+        {
+          "unit_id": "blld-2012:D242",
+          "page": 242,
+          "title": "Quy định chi tiết và hướng dẫn thi hành",
+          "chapter": "XVII",
+          "char_start": 160354,
+          "char_end": 160515,
+          "char_count": 161
+        }
+      ]
+    },
+    {
+      "source_id": "blld-2019",
+      "title": "Bộ luật Lao động số 45/2019/QH14",
+      "law_number": "45/2019/QH14",
+      "year": 2019,
+      "issued_date": "2019-11-20",
+      "file": "data/raw/blld-2019_45-2019-QH14.html",
+      "format": "html",
+      "source_url": "https://pbgdpl.cantho.gov.vn/attachment/261",
+      "publisher": "Trang thông tin điện tử phổ biến, giáo dục pháp luật TP Cần Thơ (pbgdpl.cantho.gov.vn)",
+      "accessed_at": "2026-11-14",
+      "version_note": "Văn bản gốc khi ban hành, không bao gồm các sửa đổi năm 2025 và văn bản hợp nhất sau này.",
+      "license_or_permission": "Văn bản quy phạm pháp luật, không thuộc phạm vi bảo hộ quyền tác giả theo khoản 2 Điều 15 Luật Sở hữu trí tuệ; được phép sao chép, xử lý và chia sẻ. Phần giao diện/footer của trang web bị loại khỏi corpus.",
+      "sha256": "2e1654870d3ee72b1dc86c0aac4590b62ab3197b5b0240d2f10dbeb2e8bd56d3",
+      "normalized_text": "data/processed/blld-2019.txt",
+      "content_units": 220,
+      "content_chars": 186642,
+      "excluded_chars": 521,
+      "units": [
+        {
+          "unit_id": "blld-2019:D001",
+          "page": 1,
+          "title": "Phạm vi điều chỉnh",
+          "chapter": "I",
+          "char_start": 297,
+          "char_end": 641,
+          "char_count": 344
+        },
+        {
+          "unit_id": "blld-2019:D002",
+          "page": 2,
+          "title": "Đối tượng áp dụng",
+          "chapter": "I",
+          "char_start": 642,
+          "char_end": 920,
+          "char_count": 278
+        },
+        {
+          "unit_id": "blld-2019:D003",
+          "page": 3,
+          "title": "Giải thích từ ngữ",
+          "chapter": "I",
+          "char_start": 921,
+          "char_end": 3717,
+          "char_count": 2796
+        },
+        {
+          "unit_id": "blld-2019:D004",
+          "page": 4,
+          "title": "Chính sách của Nhà nước về lao động",
+          "chapter": "I",
+          "char_start": 3718,
+          "char_end": 5220,
+          "char_count": 1502
+        },
+        {
+          "unit_id": "blld-2019:D005",
+          "page": 5,
+          "title": "Quyền và nghĩa vụ của người lao động",
+          "chapter": "I",
+          "char_start": 5221,
+          "char_end": 6789,
+          "char_count": 1568
+        },
+        {
+          "unit_id": "blld-2019:D006",
+          "page": 6,
+          "title": "Quyền và nghĩa vụ của người sử dụng lao động",
+          "chapter": "I",
+          "char_start": 6790,
+          "char_end": 8377,
+          "char_count": 1587
+        },
+        {
+          "unit_id": "blld-2019:D007",
+          "page": 7,
+          "title": "Xây dựng quan hệ lao động",
+          "chapter": "I",
+          "char_start": 8378,
+          "char_end": 9378,
+          "char_count": 1000
+        },
+        {
+          "unit_id": "blld-2019:D008",
+          "page": 8,
+          "title": "Các hành vi bị nghiêm cấm trong lĩnh vực lao động",
+          "chapter": "I",
+          "char_start": 9379,
+          "char_end": 10287,
+          "char_count": 908
+        },
+        {
+          "unit_id": "blld-2019:D009",
+          "page": 9,
+          "title": "Việc làm, giải quyết việc làm",
+          "chapter": "II",
+          "char_start": 10339,
+          "char_end": 10611,
+          "char_count": 272
+        },
+        {
+          "unit_id": "blld-2019:D010",
+          "page": 10,
+          "title": "Quyền làm việc của người lao động",
+          "chapter": "II",
+          "char_start": 10612,
+          "char_end": 10958,
+          "char_count": 346
+        },
+        {
+          "unit_id": "blld-2019:D011",
+          "page": 11,
+          "title": "Tuyển dụng lao động",
+          "chapter": "II",
+          "char_start": 10959,
+          "char_end": 11253,
+          "char_count": 294
+        },
+        {
+          "unit_id": "blld-2019:D012",
+          "page": 12,
+          "title": "Trách nhiệm quản lý lao động của người sử dụng lao động",
+          "chapter": "II",
+          "char_start": 11254,
+          "char_end": 11773,
+          "char_count": 519
+        },
+        {
+          "unit_id": "blld-2019:D013",
+          "page": 13,
+          "title": "Hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 11837,
+          "char_end": 12376,
+          "char_count": 539
+        },
+        {
+          "unit_id": "blld-2019:D014",
+          "page": 14,
+          "title": "Hình thức hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 12377,
+          "char_end": 13000,
+          "char_count": 623
+        },
+        {
+          "unit_id": "blld-2019:D015",
+          "page": 15,
+          "title": "Nguyên tắc giao kết hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 13001,
+          "char_end": 13220,
+          "char_count": 219
+        },
+        {
+          "unit_id": "blld-2019:D016",
+          "page": 16,
+          "title": "Nghĩa vụ cung cấp thông tin khi giao kết hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 13221,
+          "char_end": 14045,
+          "char_count": 824
+        },
+        {
+          "unit_id": "blld-2019:D017",
+          "page": 17,
+          "title": "Hành vi người sử dụng lao động không được làm khi giao kết, thực hiện hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 14046,
+          "char_end": 14431,
+          "char_count": 385
+        },
+        {
+          "unit_id": "blld-2019:D018",
+          "page": 18,
+          "title": "Thẩm quyền giao kết hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 14432,
+          "char_end": 16186,
+          "char_count": 1754
+        },
+        {
+          "unit_id": "blld-2019:D019",
+          "page": 19,
+          "title": "Giao kết nhiều hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 16187,
+          "char_end": 16675,
+          "char_count": 488
+        },
+        {
+          "unit_id": "blld-2019:D020",
+          "page": 20,
+          "title": "Loại hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 16676,
+          "char_end": 18162,
+          "char_count": 1486
+        },
+        {
+          "unit_id": "blld-2019:D021",
+          "page": 21,
+          "title": "Nội dung hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 18163,
+          "char_end": 19904,
+          "char_count": 1741
+        },
+        {
+          "unit_id": "blld-2019:D022",
+          "page": 22,
+          "title": "Phụ lục hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 19905,
+          "char_end": 20572,
+          "char_count": 667
+        },
+        {
+          "unit_id": "blld-2019:D023",
+          "page": 23,
+          "title": "Hiệu lực của hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 20573,
+          "char_end": 20741,
+          "char_count": 168
+        },
+        {
+          "unit_id": "blld-2019:D024",
+          "page": 24,
+          "title": "Thử việc",
+          "chapter": "III",
+          "char_start": 20742,
+          "char_end": 21187,
+          "char_count": 445
+        },
+        {
+          "unit_id": "blld-2019:D025",
+          "page": 25,
+          "title": "Thời gian thử việc",
+          "chapter": "III",
+          "char_start": 21188,
+          "char_end": 21910,
+          "char_count": 722
+        },
+        {
+          "unit_id": "blld-2019:D026",
+          "page": 26,
+          "title": "Tiền lương thử việc",
+          "chapter": "III",
+          "char_start": 21911,
+          "char_end": 22072,
+          "char_count": 161
+        },
+        {
+          "unit_id": "blld-2019:D027",
+          "page": 27,
+          "title": "Kết thúc thời gian thử việc",
+          "chapter": "III",
+          "char_start": 22073,
+          "char_end": 22735,
+          "char_count": 662
+        },
+        {
+          "unit_id": "blld-2019:D028",
+          "page": 28,
+          "title": "Thực hiện công việc theo hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 22771,
+          "char_end": 23010,
+          "char_count": 239
+        },
+        {
+          "unit_id": "blld-2019:D029",
+          "page": 29,
+          "title": "Chuyển người lao động làm công việc khác so với hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 23011,
+          "char_end": 24795,
+          "char_count": 1784
+        },
+        {
+          "unit_id": "blld-2019:D030",
+          "page": 30,
+          "title": "Tạm hoãn thực hiện hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 24796,
+          "char_end": 25982,
+          "char_count": 1186
+        },
+        {
+          "unit_id": "blld-2019:D031",
+          "page": 31,
+          "title": "Nhận lại người lao động hết thời hạn tạm hoãn thực hiện hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 25983,
+          "char_end": 26408,
+          "char_count": 425
+        },
+        {
+          "unit_id": "blld-2019:D032",
+          "page": 32,
+          "title": "Làm việc không trọn thời gian",
+          "chapter": "III",
+          "char_start": 26409,
+          "char_end": 27070,
+          "char_count": 661
+        },
+        {
+          "unit_id": "blld-2019:D033",
+          "page": 33,
+          "title": "Sửa đổi, bổ sung hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 27071,
+          "char_end": 27657,
+          "char_count": 586
+        },
+        {
+          "unit_id": "blld-2019:D034",
+          "page": 34,
+          "title": "Các trường hợp chấm dứt hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 27692,
+          "char_end": 29551,
+          "char_count": 1859
+        },
+        {
+          "unit_id": "blld-2019:D035",
+          "page": 35,
+          "title": "Quyền đơn phương chấm dứt hợp đồng lao động của người lao động",
+          "chapter": "III",
+          "char_start": 29552,
+          "char_end": 31136,
+          "char_count": 1584
+        },
+        {
+          "unit_id": "blld-2019:D036",
+          "page": 36,
+          "title": "Quyền đơn phương chấm dứt hợp đồng lao động của người sử dụng lao động",
+          "chapter": "III",
+          "char_start": 31137,
+          "char_end": 33814,
+          "char_count": 2677
+        },
+        {
+          "unit_id": "blld-2019:D037",
+          "page": 37,
+          "title": "Trường hợp người sử dụng lao động không được thực hiện quyền đơn phương chấm dứt hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 33815,
+          "char_end": 34349,
+          "char_count": 534
+        },
+        {
+          "unit_id": "blld-2019:D038",
+          "page": 38,
+          "title": "Hủy bỏ việc đơn phương chấm dứt hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 34350,
+          "char_end": 34575,
+          "char_count": 225
+        },
+        {
+          "unit_id": "blld-2019:D039",
+          "page": 39,
+          "title": "Đơn phương chấm dứt hợp đồng lao động trái pháp luật",
+          "chapter": "III",
+          "char_start": 34576,
+          "char_end": 34794,
+          "char_count": 218
+        },
+        {
+          "unit_id": "blld-2019:D040",
+          "page": 40,
+          "title": "Nghĩa vụ của người lao động khi đơn phương chấm dứt hợp đồng lao động trái pháp luật",
+          "chapter": "III",
+          "char_start": 34795,
+          "char_end": 35209,
+          "char_count": 414
+        },
+        {
+          "unit_id": "blld-2019:D041",
+          "page": 41,
+          "title": "Nghĩa vụ của người sử dụng lao động khi đơn phương chấm dứt hợp đồng lao động trái pháp luật",
+          "chapter": "III",
+          "char_start": 35210,
+          "char_end": 36835,
+          "char_count": 1625
+        },
+        {
+          "unit_id": "blld-2019:D042",
+          "page": 42,
+          "title": "Nghĩa vụ của người sử dụng lao động trong trường hợp thay đổi cơ cấu, công nghệ hoặc vì lý do kinh tế",
+          "chapter": "III",
+          "char_start": 36836,
+          "char_end": 38509,
+          "char_count": 1673
+        },
+        {
+          "unit_id": "blld-2019:D043",
+          "page": 43,
+          "title": "Nghĩa vụ của người sử dụng lao động khi chia, tách, hợp nhất, sáp nhập; bán, cho thuê, chuyển đổi loại hình doanh nghiệp; chuyển nhượng quyền sở hữu, quyền sử dụng tài sản của doanh nghiệp, hợp tác xã",
+          "chapter": "III",
+          "char_start": 38510,
+          "char_end": 39311,
+          "char_count": 801
+        },
+        {
+          "unit_id": "blld-2019:D044",
+          "page": 44,
+          "title": "Phương án sử dụng lao động",
+          "chapter": "III",
+          "char_start": 39312,
+          "char_end": 40237,
+          "char_count": 925
+        },
+        {
+          "unit_id": "blld-2019:D045",
+          "page": 45,
+          "title": "Thông báo chấm dứt hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 40238,
+          "char_end": 41086,
+          "char_count": 848
+        },
+        {
+          "unit_id": "blld-2019:D046",
+          "page": 46,
+          "title": "Trợ cấp thôi việc",
+          "chapter": "III",
+          "char_start": 41087,
+          "char_end": 42112,
+          "char_count": 1025
+        },
+        {
+          "unit_id": "blld-2019:D047",
+          "page": 47,
+          "title": "Trợ cấp mất việc làm",
+          "chapter": "III",
+          "char_start": 42113,
+          "char_end": 42965,
+          "char_count": 852
+        },
+        {
+          "unit_id": "blld-2019:D048",
+          "page": 48,
+          "title": "Trách nhiệm khi chấm dứt hợp đồng lao động",
+          "chapter": "III",
+          "char_start": 42966,
+          "char_end": 44319,
+          "char_count": 1353
+        },
+        {
+          "unit_id": "blld-2019:D049",
+          "page": 49,
+          "title": "Hợp đồng lao động vô hiệu",
+          "chapter": "III",
+          "char_start": 44353,
+          "char_end": 44885,
+          "char_count": 532
+        },
+        {
+          "unit_id": "blld-2019:D050",
+          "page": 50,
+          "title": "Thẩm quyền tuyên bố hợp đồng lao động vô hiệu",
+          "chapter": "III",
+          "char_start": 44886,
+          "char_end": 45001,
+          "char_count": 115
+        },
+        {
+          "unit_id": "blld-2019:D051",
+          "page": 51,
+          "title": "Xử lý hợp đồng lao động vô hiệu",
+          "chapter": "III",
+          "char_start": 45002,
+          "char_end": 45703,
+          "char_count": 701
+        },
+        {
+          "unit_id": "blld-2019:D052",
+          "page": 52,
+          "title": "Cho thuê lại lao động",
+          "chapter": "III",
+          "char_start": 45733,
+          "char_end": 46306,
+          "char_count": 573
+        },
+        {
+          "unit_id": "blld-2019:D053",
+          "page": 53,
+          "title": "Nguyên tắc hoạt động cho thuê lại lao động",
+          "chapter": "III",
+          "char_start": 46307,
+          "char_end": 47537,
+          "char_count": 1230
+        },
+        {
+          "unit_id": "blld-2019:D054",
+          "page": 54,
+          "title": "Doanh nghiệp cho thuê lại lao động",
+          "chapter": "III",
+          "char_start": 47538,
+          "char_end": 47883,
+          "char_count": 345
+        },
+        {
+          "unit_id": "blld-2019:D055",
+          "page": 55,
+          "title": "Hợp đồng cho thuê lại lao động",
+          "chapter": "III",
+          "char_start": 47884,
+          "char_end": 48797,
+          "char_count": 913
+        },
+        {
+          "unit_id": "blld-2019:D056",
+          "page": 56,
+          "title": "Quyền và nghĩa vụ của doanh nghiệp cho thuê lại lao động",
+          "chapter": "III",
+          "char_start": 48798,
+          "char_end": 49838,
+          "char_count": 1040
+        },
+        {
+          "unit_id": "blld-2019:D057",
+          "page": 57,
+          "title": "Quyền và nghĩa vụ của bên thuê lại lao động",
+          "chapter": "III",
+          "char_start": 49839,
+          "char_end": 50791,
+          "char_count": 952
+        },
+        {
+          "unit_id": "blld-2019:D058",
+          "page": 58,
+          "title": "Quyền và nghĩa vụ của người lao động thuê lại",
+          "chapter": "III",
+          "char_start": 50792,
+          "char_end": 51657,
+          "char_count": 865
+        },
+        {
+          "unit_id": "blld-2019:D059",
+          "page": 59,
+          "title": "Đào tạo nghề nghiệp và phát triển kỹ năng nghề",
+          "chapter": "IV",
+          "char_start": 51716,
+          "char_end": 52744,
+          "char_count": 1028
+        },
+        {
+          "unit_id": "blld-2019:D060",
+          "page": 60,
+          "title": "Trách nhiệm của người sử dụng lao động về đào tạo, bồi dưỡng, nâng cao trình độ, kỹ năng nghề",
+          "chapter": "IV",
+          "char_start": 52745,
+          "char_end": 53287,
+          "char_count": 542
+        },
+        {
+          "unit_id": "blld-2019:D061",
+          "page": 61,
+          "title": "Học nghề, tập nghề để làm việc cho người sử dụng lao động",
+          "chapter": "IV",
+          "char_start": 53288,
+          "char_end": 54748,
+          "char_count": 1460
+        },
+        {
+          "unit_id": "blld-2019:D062",
+          "page": 62,
+          "title": "Hợp đồng đào tạo nghề giữa người sử dụng lao động, người lao động và chi phí đào tạo nghề",
+          "chapter": "IV",
+          "char_start": 54749,
+          "char_end": 55974,
+          "char_count": 1225
+        },
+        {
+          "unit_id": "blld-2019:D063",
+          "page": 63,
+          "title": "Tổ chức đối thoại tại nơi làm việc",
+          "chapter": "V",
+          "char_start": 56094,
+          "char_end": 57055,
+          "char_count": 961
+        },
+        {
+          "unit_id": "blld-2019:D064",
+          "page": 64,
+          "title": "Nội dung đối thoại tại nơi làm việc",
+          "chapter": "V",
+          "char_start": 57056,
+          "char_end": 57770,
+          "char_count": 714
+        },
+        {
+          "unit_id": "blld-2019:D065",
+          "page": 65,
+          "title": "Thương lượng tập thể",
+          "chapter": "V",
+          "char_start": 57799,
+          "char_end": 58167,
+          "char_count": 368
+        },
+        {
+          "unit_id": "blld-2019:D066",
+          "page": 66,
+          "title": "Nguyên tắc thương lượng tập thể",
+          "chapter": "V",
+          "char_start": 58168,
+          "char_end": 58326,
+          "char_count": 158
+        },
+        {
+          "unit_id": "blld-2019:D067",
+          "page": 67,
+          "title": "Nội dung thương lượng tập thể",
+          "chapter": "V",
+          "char_start": 58327,
+          "char_end": 59108,
+          "char_count": 781
+        },
+        {
+          "unit_id": "blld-2019:D068",
+          "page": 68,
+          "title": "Quyền thương lượng tập thể của tổ chức đại diện người lao động tại cơ sở trong doanh nghiệp",
+          "chapter": "V",
+          "char_start": 59109,
+          "char_end": 60229,
+          "char_count": 1120
+        },
+        {
+          "unit_id": "blld-2019:D069",
+          "page": 69,
+          "title": "Đại diện thương lượng tập thể tại doanh nghiệp",
+          "chapter": "V",
+          "char_start": 60230,
+          "char_end": 61376,
+          "char_count": 1146
+        },
+        {
+          "unit_id": "blld-2019:D070",
+          "page": 70,
+          "title": "Quy trình thương lượng tập thể tại doanh nghiệp",
+          "chapter": "V",
+          "char_start": 61377,
+          "char_end": 64006,
+          "char_count": 2629
+        },
+        {
+          "unit_id": "blld-2019:D071",
+          "page": 71,
+          "title": "Thương lượng tập thể không thành",
+          "chapter": "V",
+          "char_start": 64007,
+          "char_end": 64758,
+          "char_count": 751
+        },
+        {
+          "unit_id": "blld-2019:D072",
+          "page": 72,
+          "title": "Thương lượng tập thể ngành, thương lượng tập thể có nhiều doanh nghiệp tham gia",
+          "chapter": "V",
+          "char_start": 64759,
+          "char_end": 65605,
+          "char_count": 846
+        },
+        {
+          "unit_id": "blld-2019:D073",
+          "page": 73,
+          "title": "Thương lượng tập thể có nhiều doanh nghiệp tham gia thông qua Hội đồng thương lượng tập thể",
+          "chapter": "V",
+          "char_start": 65606,
+          "char_end": 67051,
+          "char_count": 1445
+        },
+        {
+          "unit_id": "blld-2019:D074",
+          "page": 74,
+          "title": "Trách nhiệm của Ủy ban nhân dân cấp tỉnh trong thương lượng tập thể",
+          "chapter": "V",
+          "char_start": 67052,
+          "char_end": 67792,
+          "char_count": 740
+        },
+        {
+          "unit_id": "blld-2019:D075",
+          "page": 75,
+          "title": "Thỏa ước lao động tập thể",
+          "chapter": "V",
+          "char_start": 67826,
+          "char_end": 68330,
+          "char_count": 504
+        },
+        {
+          "unit_id": "blld-2019:D076",
+          "page": 76,
+          "title": "Lấy ý kiến và ký kết thỏa ước lao động tập thể",
+          "chapter": "V",
+          "char_start": 68331,
+          "char_end": 70730,
+          "char_count": 2399
+        },
+        {
+          "unit_id": "blld-2019:D077",
+          "page": 77,
+          "title": "Gửi thỏa ước lao động tập thể",
+          "chapter": "V",
+          "char_start": 70731,
+          "char_end": 71013,
+          "char_count": 282
+        },
+        {
+          "unit_id": "blld-2019:D078",
+          "page": 78,
+          "title": "Hiệu lực và thời hạn của thỏa ước lao động tập thể",
+          "chapter": "V",
+          "char_start": 71014,
+          "char_end": 71966,
+          "char_count": 952
+        },
+        {
+          "unit_id": "blld-2019:D079",
+          "page": 79,
+          "title": "Thực hiện thỏa ước lao động tập thể tại doanh nghiệp",
+          "chapter": "V",
+          "char_start": 71967,
+          "char_end": 73020,
+          "char_count": 1053
+        },
+        {
+          "unit_id": "blld-2019:D080",
+          "page": 80,
+          "title": "Thực hiện thỏa ước lao động tập thể doanh nghiệp trong trường hợp chia, tách, hợp nhất, sáp nhập; bán, cho thuê, chuyển đổi loại hình doanh nghiệp; chuyển nhượng quyền sở hữu, quyền sử dụng tài sản của doanh nghiệp",
+          "chapter": "V",
+          "char_start": 73021,
+          "char_end": 73931,
+          "char_count": 910
+        },
+        {
+          "unit_id": "blld-2019:D081",
+          "page": 81,
+          "title": "Quan hệ giữa thỏa ước lao động tập thể doanh nghiệp, thỏa ước lao động tập thể ngành và thỏa ước lao động tập thể có nhiều doanh nghiệp",
+          "chapter": "V",
+          "char_start": 73932,
+          "char_end": 74989,
+          "char_count": 1057
+        },
+        {
+          "unit_id": "blld-2019:D082",
+          "page": 82,
+          "title": "Sửa đổi, bổ sung thỏa ước lao động tập thể",
+          "chapter": "V",
+          "char_start": 74990,
+          "char_end": 75668,
+          "char_count": 678
+        },
+        {
+          "unit_id": "blld-2019:D083",
+          "page": 83,
+          "title": "Thỏa ước lao động tập thể hết hạn",
+          "chapter": "V",
+          "char_start": 75669,
+          "char_end": 76299,
+          "char_count": 630
+        },
+        {
+          "unit_id": "blld-2019:D084",
+          "page": 84,
+          "title": "Mở rộng phạm vi áp dụng của thỏa ước lao động tập thể ngành hoặc thỏa ước lao động tập thể có nhiều doanh nghiệp",
+          "chapter": "V",
+          "char_start": 76300,
+          "char_end": 77174,
+          "char_count": 874
+        },
+        {
+          "unit_id": "blld-2019:D085",
+          "page": 85,
+          "title": "Gia nhập và rút khỏi thỏa ước lao động tập thể ngành hoặc thỏa ước lao động tập thể có nhiều doanh nghiệp",
+          "chapter": "V",
+          "char_start": 77175,
+          "char_end": 78000,
+          "char_count": 825
+        },
+        {
+          "unit_id": "blld-2019:D086",
+          "page": 86,
+          "title": "Thỏa ước lao động tập thể vô hiệu",
+          "chapter": "V",
+          "char_start": 78001,
+          "char_end": 78440,
+          "char_count": 439
+        },
+        {
+          "unit_id": "blld-2019:D087",
+          "page": 87,
+          "title": "Thẩm quyền tuyên bố thỏa ước lao động tập thể vô hiệu",
+          "chapter": "V",
+          "char_start": 78441,
+          "char_end": 78572,
+          "char_count": 131
+        },
+        {
+          "unit_id": "blld-2019:D088",
+          "page": 88,
+          "title": "Xử lý thỏa ước lao động tập thể vô hiệu",
+          "chapter": "V",
+          "char_start": 78573,
+          "char_end": 78898,
+          "char_count": 325
+        },
+        {
+          "unit_id": "blld-2019:D089",
+          "page": 89,
+          "title": "Chi phí thương lượng, ký kết thỏa ước lao động tập thể",
+          "chapter": "V",
+          "char_start": 78899,
+          "char_end": 79104,
+          "char_count": 205
+        },
+        {
+          "unit_id": "blld-2019:D090",
+          "page": 90,
+          "title": "Tiền lương",
+          "chapter": "VI",
+          "char_start": 79126,
+          "char_end": 79577,
+          "char_count": 451
+        },
+        {
+          "unit_id": "blld-2019:D091",
+          "page": 91,
+          "title": "Mức lương tối thiểu",
+          "chapter": "VI",
+          "char_start": 79578,
+          "char_end": 80401,
+          "char_count": 823
+        },
+        {
+          "unit_id": "blld-2019:D092",
+          "page": 92,
+          "title": "Hội đồng tiền lương quốc gia",
+          "chapter": "VI",
+          "char_start": 80402,
+          "char_end": 80935,
+          "char_count": 533
+        },
+        {
+          "unit_id": "blld-2019:D093",
+          "page": 93,
+          "title": "Xây dựng thang lương, bảng lương và định mức lao động",
+          "chapter": "VI",
+          "char_start": 80936,
+          "char_end": 81747,
+          "char_count": 811
+        },
+        {
+          "unit_id": "blld-2019:D094",
+          "page": 94,
+          "title": "Nguyên tắc trả lương",
+          "chapter": "VI",
+          "char_start": 81748,
+          "char_end": 82302,
+          "char_count": 554
+        },
+        {
+          "unit_id": "blld-2019:D095",
+          "page": 95,
+          "title": "Trả lương",
+          "chapter": "VI",
+          "char_start": 82303,
+          "char_end": 82882,
+          "char_count": 579
+        },
+        {
+          "unit_id": "blld-2019:D096",
+          "page": 96,
+          "title": "Hình thức trả lương",
+          "chapter": "VI",
+          "char_start": 82883,
+          "char_end": 83359,
+          "char_count": 476
+        },
+        {
+          "unit_id": "blld-2019:D097",
+          "page": 97,
+          "title": "Kỳ hạn trả lương",
+          "chapter": "VI",
+          "char_start": 83360,
+          "char_end": 84480,
+          "char_count": 1120
+        },
+        {
+          "unit_id": "blld-2019:D098",
+          "page": 98,
+          "title": "Tiền lương làm thêm giờ, làm việc vào ban đêm",
+          "chapter": "VI",
+          "char_start": 84481,
+          "char_end": 85476,
+          "char_count": 995
+        },
+        {
+          "unit_id": "blld-2019:D099",
+          "page": 99,
+          "title": "Tiền lương ngừng việc",
+          "chapter": "VI",
+          "char_start": 85477,
+          "char_end": 86525,
+          "char_count": 1048
+        },
+        {
+          "unit_id": "blld-2019:D100",
+          "page": 100,
+          "title": "Trả lương thông qua người cai thầu",
+          "chapter": "VI",
+          "char_start": 86526,
+          "char_end": 87409,
+          "char_count": 883
+        },
+        {
+          "unit_id": "blld-2019:D101",
+          "page": 101,
+          "title": "Tạm ứng tiền lương",
+          "chapter": "VI",
+          "char_start": 87410,
+          "char_end": 88041,
+          "char_count": 631
+        },
+        {
+          "unit_id": "blld-2019:D102",
+          "page": 102,
+          "title": "Khấu trừ tiền lương",
+          "chapter": "VI",
+          "char_start": 88042,
+          "char_end": 88576,
+          "char_count": 534
+        },
+        {
+          "unit_id": "blld-2019:D103",
+          "page": 103,
+          "title": "Chế độ nâng lương, nâng bậc, phụ cấp, trợ cấp",
+          "chapter": "VI",
+          "char_start": 88577,
+          "char_end": 88837,
+          "char_count": 260
+        },
+        {
+          "unit_id": "blld-2019:D104",
+          "page": 104,
+          "title": "Thưởng",
+          "chapter": "VI",
+          "char_start": 88838,
+          "char_end": 89280,
+          "char_count": 442
+        },
+        {
+          "unit_id": "blld-2019:D105",
+          "page": 105,
+          "title": "Thời giờ làm việc bình thường",
+          "chapter": "VII",
+          "char_start": 89355,
+          "char_end": 90029,
+          "char_count": 674
+        },
+        {
+          "unit_id": "blld-2019:D106",
+          "page": 106,
+          "title": "Giờ làm việc ban đêm",
+          "chapter": "VII",
+          "char_start": 90030,
+          "char_end": 90131,
+          "char_count": 101
+        },
+        {
+          "unit_id": "blld-2019:D107",
+          "page": 107,
+          "title": "Làm thêm giờ",
+          "chapter": "VII",
+          "char_start": 90132,
+          "char_end": 91976,
+          "char_count": 1844
+        },
+        {
+          "unit_id": "blld-2019:D108",
+          "page": 108,
+          "title": "Làm thêm giờ trong trường hợp đặc biệt",
+          "chapter": "VII",
+          "char_start": 91977,
+          "char_end": 92688,
+          "char_count": 711
+        },
+        {
+          "unit_id": "blld-2019:D109",
+          "page": 109,
+          "title": "Nghỉ trong giờ làm việc",
+          "chapter": "VII",
+          "char_start": 92715,
+          "char_end": 93265,
+          "char_count": 550
+        },
+        {
+          "unit_id": "blld-2019:D110",
+          "page": 110,
+          "title": "Nghỉ chuyển ca",
+          "chapter": "VII",
+          "char_start": 93266,
+          "char_end": 93387,
+          "char_count": 121
+        },
+        {
+          "unit_id": "blld-2019:D111",
+          "page": 111,
+          "title": "Nghỉ hằng tuần",
+          "chapter": "VII",
+          "char_start": 93388,
+          "char_end": 94009,
+          "char_count": 621
+        },
+        {
+          "unit_id": "blld-2019:D112",
+          "page": 112,
+          "title": "Nghỉ lễ, tết",
+          "chapter": "VII",
+          "char_start": 94010,
+          "char_end": 94810,
+          "char_count": 800
+        },
+        {
+          "unit_id": "blld-2019:D113",
+          "page": 113,
+          "title": "Nghỉ hằng năm",
+          "chapter": "VII",
+          "char_start": 94811,
+          "char_end": 96371,
+          "char_count": 1560
+        },
+        {
+          "unit_id": "blld-2019:D114",
+          "page": 114,
+          "title": "Ngày nghỉ hằng năm tăng thêm theo thâm niên làm việc",
+          "chapter": "VII",
+          "char_start": 96372,
+          "char_end": 96617,
+          "char_count": 245
+        },
+        {
+          "unit_id": "blld-2019:D115",
+          "page": 115,
+          "title": "Nghỉ việc riêng, nghỉ không hưởng lương",
+          "chapter": "VII",
+          "char_start": 96618,
+          "char_end": 97364,
+          "char_count": 746
+        },
+        {
+          "unit_id": "blld-2019:D116",
+          "page": 116,
+          "title": "Thời giờ làm việc, thời giờ nghỉ ngơi đối với người làm công việc có tính chất đặc biệt",
+          "chapter": "VII",
+          "char_start": 97460,
+          "char_end": 98347,
+          "char_count": 887
+        },
+        {
+          "unit_id": "blld-2019:D117",
+          "page": 117,
+          "title": "Kỷ luật lao động",
+          "chapter": "VIII",
+          "char_start": 98423,
+          "char_end": 98641,
+          "char_count": 218
+        },
+        {
+          "unit_id": "blld-2019:D118",
+          "page": 118,
+          "title": "Nội quy lao động",
+          "chapter": "VIII",
+          "char_start": 98642,
+          "char_end": 99975,
+          "char_count": 1333
+        },
+        {
+          "unit_id": "blld-2019:D119",
+          "page": 119,
+          "title": "Đăng ký nội quy lao động",
+          "chapter": "VIII",
+          "char_start": 99976,
+          "char_end": 101148,
+          "char_count": 1172
+        },
+        {
+          "unit_id": "blld-2019:D120",
+          "page": 120,
+          "title": "Hồ sơ đăng ký nội quy lao động",
+          "chapter": "VIII",
+          "char_start": 101149,
+          "char_end": 101535,
+          "char_count": 386
+        },
+        {
+          "unit_id": "blld-2019:D121",
+          "page": 121,
+          "title": "Hiệu lực của nội quy lao động",
+          "chapter": "VIII",
+          "char_start": 101536,
+          "char_end": 101923,
+          "char_count": 387
+        },
+        {
+          "unit_id": "blld-2019:D122",
+          "page": 122,
+          "title": "Nguyên tắc, trình tự, thủ tục xử lý kỷ luật lao động",
+          "chapter": "VIII",
+          "char_start": 101924,
+          "char_end": 103490,
+          "char_count": 1566
+        },
+        {
+          "unit_id": "blld-2019:D123",
+          "page": 123,
+          "title": "Thời hiệu xử lý kỷ luật lao động",
+          "chapter": "VIII",
+          "char_start": 103491,
+          "char_end": 104179,
+          "char_count": 688
+        },
+        {
+          "unit_id": "blld-2019:D124",
+          "page": 124,
+          "title": "Hình thức xử lý kỷ luật lao động",
+          "chapter": "VIII",
+          "char_start": 104180,
+          "char_end": 104315,
+          "char_count": 135
+        },
+        {
+          "unit_id": "blld-2019:D125",
+          "page": 125,
+          "title": "Áp dụng hình thức xử lý kỷ luật sa thải",
+          "chapter": "VIII",
+          "char_start": 104316,
+          "char_end": 105583,
+          "char_count": 1267
+        },
+        {
+          "unit_id": "blld-2019:D126",
+          "page": 126,
+          "title": "Xóa kỷ luật, giảm thời hạn chấp hành kỷ luật lao động",
+          "chapter": "VIII",
+          "char_start": 105584,
+          "char_end": 106080,
+          "char_count": 496
+        },
+        {
+          "unit_id": "blld-2019:D127",
+          "page": 127,
+          "title": "Các hành vi bị nghiêm cấm khi xử lý kỷ luật lao động",
+          "chapter": "VIII",
+          "char_start": 106081,
+          "char_end": 106496,
+          "char_count": 415
+        },
+        {
+          "unit_id": "blld-2019:D128",
+          "page": 128,
+          "title": "Tạm đình chỉ công việc",
+          "chapter": "VIII",
+          "char_start": 106497,
+          "char_end": 107545,
+          "char_count": 1048
+        },
+        {
+          "unit_id": "blld-2019:D129",
+          "page": 129,
+          "title": "Bồi thường thiệt hại",
+          "chapter": "VIII",
+          "char_start": 107574,
+          "char_end": 108766,
+          "char_count": 1192
+        },
+        {
+          "unit_id": "blld-2019:D130",
+          "page": 130,
+          "title": "Xử lý bồi thường thiệt hại",
+          "chapter": "VIII",
+          "char_start": 108767,
+          "char_end": 109058,
+          "char_count": 291
+        },
+        {
+          "unit_id": "blld-2019:D131",
+          "page": 131,
+          "title": "Khiếu nại về kỷ luật lao động, trách nhiệm vật chất",
+          "chapter": "VIII",
+          "char_start": 109059,
+          "char_end": 109478,
+          "char_count": 419
+        },
+        {
+          "unit_id": "blld-2019:D132",
+          "page": 132,
+          "title": "Tuân thủ pháp luật về an toàn, vệ sinh lao động",
+          "chapter": "IX",
+          "char_start": 109515,
+          "char_end": 109756,
+          "char_count": 241
+        },
+        {
+          "unit_id": "blld-2019:D133",
+          "page": 133,
+          "title": "Chương trình an toàn, vệ sinh lao động",
+          "chapter": "IX",
+          "char_start": 109757,
+          "char_end": 110056,
+          "char_count": 299
+        },
+        {
+          "unit_id": "blld-2019:D134",
+          "page": 134,
+          "title": "Bảo đảm an toàn, vệ sinh lao động tại nơi làm việc",
+          "chapter": "IX",
+          "char_start": 110057,
+          "char_end": 110476,
+          "char_count": 419
+        },
+        {
+          "unit_id": "blld-2019:D135",
+          "page": 135,
+          "title": "Chính sách của Nhà nước",
+          "chapter": "X",
+          "char_start": 110553,
+          "char_end": 111673,
+          "char_count": 1120
+        },
+        {
+          "unit_id": "blld-2019:D136",
+          "page": 136,
+          "title": "Trách nhiệm của người sử dụng lao động",
+          "chapter": "X",
+          "char_start": 111674,
+          "char_end": 112230,
+          "char_count": 556
+        },
+        {
+          "unit_id": "blld-2019:D137",
+          "page": 137,
+          "title": "Bảo vệ thai sản",
+          "chapter": "X",
+          "char_start": 112231,
+          "char_end": 114038,
+          "char_count": 1807
+        },
+        {
+          "unit_id": "blld-2019:D138",
+          "page": 138,
+          "title": "Quyền đơn phương chấm dứt, tạm hoãn hợp đồng lao động của lao động nữ mang thai",
+          "chapter": "X",
+          "char_start": 114039,
+          "char_end": 115017,
+          "char_count": 978
+        },
+        {
+          "unit_id": "blld-2019:D139",
+          "page": 139,
+          "title": "Nghỉ thai sản",
+          "chapter": "X",
+          "char_start": 115018,
+          "char_end": 116376,
+          "char_count": 1358
+        },
+        {
+          "unit_id": "blld-2019:D140",
+          "page": 140,
+          "title": "Bảo đảm việc làm cho lao động nghỉ thai sản",
+          "chapter": "X",
+          "char_start": 116377,
+          "char_end": 116814,
+          "char_count": 437
+        },
+        {
+          "unit_id": "blld-2019:D141",
+          "page": 141,
+          "title": "Trợ cấp trong thời gian chăm sóc con ốm đau, thai sản và thực hiện các biện pháp tránh thai",
+          "chapter": "X",
+          "char_start": 116815,
+          "char_end": 117172,
+          "char_count": 357
+        },
+        {
+          "unit_id": "blld-2019:D142",
+          "page": 142,
+          "title": "Nghề, công việc có ảnh hưởng xấu tới chức năng sinh sản và nuôi con",
+          "chapter": "X",
+          "char_start": 117173,
+          "char_end": 117685,
+          "char_count": 512
+        },
+        {
+          "unit_id": "blld-2019:D143",
+          "page": 143,
+          "title": "Lao động chưa thành niên",
+          "chapter": "XI",
+          "char_start": 117806,
+          "char_end": 118286,
+          "char_count": 480
+        },
+        {
+          "unit_id": "blld-2019:D144",
+          "page": 144,
+          "title": "Nguyên tắc sử dụng lao động chưa thành niên",
+          "chapter": "XI",
+          "char_start": 118287,
+          "char_end": 119103,
+          "char_count": 816
+        },
+        {
+          "unit_id": "blld-2019:D145",
+          "page": 145,
+          "title": "Sử dụng người chưa đủ 15 tuổi làm việc",
+          "chapter": "XI",
+          "char_start": 119104,
+          "char_end": 120328,
+          "char_count": 1224
+        },
+        {
+          "unit_id": "blld-2019:D146",
+          "page": 146,
+          "title": "Thời giờ làm việc của người chưa thành niên",
+          "chapter": "XI",
+          "char_start": 120329,
+          "char_end": 120852,
+          "char_count": 523
+        },
+        {
+          "unit_id": "blld-2019:D147",
+          "page": 147,
+          "title": "Công việc và nơi làm việc cấm sử dụng người lao động từ đủ 15 tuổi đến chưa đủ 18 tuổi",
+          "chapter": "XI",
+          "char_start": 120853,
+          "char_end": 122132,
+          "char_count": 1279
+        },
+        {
+          "unit_id": "blld-2019:D148",
+          "page": 148,
+          "title": "Người lao động cao tuổi",
+          "chapter": "XI",
+          "char_start": 122164,
+          "char_end": 122634,
+          "char_count": 470
+        },
+        {
+          "unit_id": "blld-2019:D149",
+          "page": 149,
+          "title": "Sử dụng người lao động cao tuổi",
+          "chapter": "XI",
+          "char_start": 122635,
+          "char_end": 123460,
+          "char_count": 825
+        },
+        {
+          "unit_id": "blld-2019:D150",
+          "page": 150,
+          "title": "Người lao động Việt Nam đi làm việc ở nước ngoài, lao động cho các tổ chức, cá nhân nước ngoài tại Việt Nam",
+          "chapter": "XI",
+          "char_start": 123628,
+          "char_end": 124528,
+          "char_count": 900
+        },
+        {
+          "unit_id": "blld-2019:D151",
+          "page": 151,
+          "title": "Điều kiện người lao động nước ngoài làm việc tại Việt Nam",
+          "chapter": "XI",
+          "char_start": 124529,
+          "char_end": 125766,
+          "char_count": 1237
+        },
+        {
+          "unit_id": "blld-2019:D152",
+          "page": 152,
+          "title": "Điều kiện tuyển dụng, sử dụng người lao động nước ngoài làm việc tại Việt Nam",
+          "chapter": "XI",
+          "char_start": 125767,
+          "char_end": 126658,
+          "char_count": 891
+        },
+        {
+          "unit_id": "blld-2019:D153",
+          "page": 153,
+          "title": "Trách nhiệm của người sử dụng lao động và người lao động nước ngoài",
+          "chapter": "XI",
+          "char_start": 126659,
+          "char_end": 127222,
+          "char_count": 563
+        },
+        {
+          "unit_id": "blld-2019:D154",
+          "page": 154,
+          "title": "Người lao động nước ngoài làm việc tại Việt Nam không thuộc diện cấp giấy phép lao động",
+          "chapter": "XI",
+          "char_start": 127223,
+          "char_end": 128415,
+          "char_count": 1192
+        },
+        {
+          "unit_id": "blld-2019:D155",
+          "page": 155,
+          "title": "Thời hạn của giấy phép lao động",
+          "chapter": "XI",
+          "char_start": 128416,
+          "char_end": 128586,
+          "char_count": 170
+        },
+        {
+          "unit_id": "blld-2019:D156",
+          "page": 156,
+          "title": "Các trường hợp giấy phép lao động hết hiệu lực",
+          "chapter": "XI",
+          "char_start": 128587,
+          "char_end": 129255,
+          "char_count": 668
+        },
+        {
+          "unit_id": "blld-2019:D157",
+          "page": 157,
+          "title": "Cấp, cấp lại, gia hạn, thu hồi giấy phép lao động, giấy xác nhận không thuộc diện cấp giấy phép lao động",
+          "chapter": "XI",
+          "char_start": 129256,
+          "char_end": 129582,
+          "char_count": 326
+        },
+        {
+          "unit_id": "blld-2019:D158",
+          "page": 158,
+          "title": "Chính sách của Nhà nước đối với lao động là người khuyết tật",
+          "chapter": "XI",
+          "char_start": 129619,
+          "char_end": 129976,
+          "char_count": 357
+        },
+        {
+          "unit_id": "blld-2019:D159",
+          "page": 159,
+          "title": "Sử dụng lao động là người khuyết tật",
+          "chapter": "XI",
+          "char_start": 129977,
+          "char_end": 130364,
+          "char_count": 387
+        },
+        {
+          "unit_id": "blld-2019:D160",
+          "page": 160,
+          "title": "Các hành vi bị nghiêm cấm khi sử dụng lao động là người khuyết tật",
+          "chapter": "XI",
+          "char_start": 130365,
+          "char_end": 130961,
+          "char_count": 596
+        },
+        {
+          "unit_id": "blld-2019:D161",
+          "page": 161,
+          "title": "Lao động là người giúp việc gia đình",
+          "chapter": "XI",
+          "char_start": 131006,
+          "char_end": 131478,
+          "char_count": 472
+        },
+        {
+          "unit_id": "blld-2019:D162",
+          "page": 162,
+          "title": "Hợp đồng lao động đối với lao động là người giúp việc gia đình",
+          "chapter": "XI",
+          "char_start": 131479,
+          "char_end": 131998,
+          "char_count": 519
+        },
+        {
+          "unit_id": "blld-2019:D163",
+          "page": 163,
+          "title": "Nghĩa vụ của người sử dụng lao động khi sử dụng lao động là người giúp việc gia đình",
+          "chapter": "XI",
+          "char_start": 131999,
+          "char_end": 132734,
+          "char_count": 735
+        },
+        {
+          "unit_id": "blld-2019:D164",
+          "page": 164,
+          "title": "Nghĩa vụ của lao động là người giúp việc gia đình",
+          "chapter": "XI",
+          "char_start": 132735,
+          "char_end": 133324,
+          "char_count": 589
+        },
+        {
+          "unit_id": "blld-2019:D165",
+          "page": 165,
+          "title": "Các hành vi bị nghiêm cấm đối với người sử dụng lao động",
+          "chapter": "XI",
+          "char_start": 133325,
+          "char_end": 133618,
+          "char_count": 293
+        },
+        {
+          "unit_id": "blld-2019:D166",
+          "page": 166,
+          "title": "Người lao động làm việc trong lĩnh vực nghệ thuật, thể dục, thể thao, hàng hải, hàng không",
+          "chapter": "XI",
+          "char_start": 133647,
+          "char_end": 134067,
+          "char_count": 420
+        },
+        {
+          "unit_id": "blld-2019:D167",
+          "page": 167,
+          "title": "Người lao động nhận công việc về làm tại nhà",
+          "chapter": "XI",
+          "char_start": 134068,
+          "char_end": 134211,
+          "char_count": 143
+        },
+        {
+          "unit_id": "blld-2019:D168",
+          "page": 168,
+          "title": "Tham gia bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp",
+          "chapter": "XII",
+          "char_start": 134276,
+          "char_end": 135335,
+          "char_count": 1059
+        },
+        {
+          "unit_id": "blld-2019:D169",
+          "page": 169,
+          "title": "Tuổi nghỉ hưu",
+          "chapter": "XII",
+          "char_start": 135336,
+          "char_end": 136662,
+          "char_count": 1326
+        },
+        {
+          "unit_id": "blld-2019:D170",
+          "page": 170,
+          "title": "Quyền thành lập, gia nhập và tham gia hoạt động của tổ chức đại diện người lao động tại cơ sở",
+          "chapter": "XIII",
+          "char_start": 136717,
+          "char_end": 137339,
+          "char_count": 622
+        },
+        {
+          "unit_id": "blld-2019:D171",
+          "page": 171,
+          "title": "Công đoàn cơ sở thuộc hệ thống tổ chức Công đoàn Việt Nam",
+          "chapter": "XIII",
+          "char_start": 137340,
+          "char_end": 137648,
+          "char_count": 308
+        },
+        {
+          "unit_id": "blld-2019:D172",
+          "page": 172,
+          "title": "Thành lập, gia nhập tổ chức của người lao động tại doanh nghiệp",
+          "chapter": "XIII",
+          "char_start": 137649,
+          "char_end": 138806,
+          "char_count": 1157
+        },
+        {
+          "unit_id": "blld-2019:D173",
+          "page": 173,
+          "title": "Ban lãnh đạo và thành viên tổ chức của người lao động tại doanh nghiệp",
+          "chapter": "XIII",
+          "char_start": 138807,
+          "char_end": 139522,
+          "char_count": 715
+        },
+        {
+          "unit_id": "blld-2019:D174",
+          "page": 174,
+          "title": "Điều lệ tổ chức của người lao động tại doanh nghiệp",
+          "chapter": "XIII",
+          "char_start": 139523,
+          "char_end": 141300,
+          "char_count": 1777
+        },
+        {
+          "unit_id": "blld-2019:D175",
+          "page": 175,
+          "title": "Các hành vi bị nghiêm cấm đối với người sử dụng lao động liên quan đến thành lập, gia nhập và hoạt động của tổ chức đại diện người lao động tại cơ sở",
+          "chapter": "XIII",
+          "char_start": 141301,
+          "char_end": 142613,
+          "char_count": 1312
+        },
+        {
+          "unit_id": "blld-2019:D176",
+          "page": 176,
+          "title": "Quyền của thành viên ban lãnh đạo của tổ chức đại diện người lao động tại cơ sở",
+          "chapter": "XIII",
+          "char_start": 142614,
+          "char_end": 144020,
+          "char_count": 1406
+        },
+        {
+          "unit_id": "blld-2019:D177",
+          "page": 177,
+          "title": "Nghĩa vụ của người sử dụng lao động đối với tổ chức đại diện người lao động tại cơ sở",
+          "chapter": "XIII",
+          "char_start": 144021,
+          "char_end": 145455,
+          "char_count": 1434
+        },
+        {
+          "unit_id": "blld-2019:D178",
+          "page": 178,
+          "title": "Quyền và nghĩa vụ của tổ chức đại diện người lao động tại cơ sở trong quan hệ lao động",
+          "chapter": "XIII",
+          "char_start": 145456,
+          "char_end": 146641,
+          "char_count": 1185
+        },
+        {
+          "unit_id": "blld-2019:D179",
+          "page": 179,
+          "title": "Tranh chấp lao động",
+          "chapter": "XIV",
+          "char_start": 146746,
+          "char_end": 148552,
+          "char_count": 1806
+        },
+        {
+          "unit_id": "blld-2019:D180",
+          "page": 180,
+          "title": "Nguyên tắc giải quyết tranh chấp lao động",
+          "chapter": "XIV",
+          "char_start": 148553,
+          "char_end": 149346,
+          "char_count": 793
+        },
+        {
+          "unit_id": "blld-2019:D181",
+          "page": 181,
+          "title": "Trách nhiệm của cơ quan, tổ chức trong giải quyết tranh chấp lao động",
+          "chapter": "XIV",
+          "char_start": 149347,
+          "char_end": 150398,
+          "char_count": 1051
+        },
+        {
+          "unit_id": "blld-2019:D182",
+          "page": 182,
+          "title": "Quyền và nghĩa vụ của hai bên trong giải quyết tranh chấp lao động",
+          "chapter": "XIV",
+          "char_start": 150399,
+          "char_end": 151090,
+          "char_count": 691
+        },
+        {
+          "unit_id": "blld-2019:D183",
+          "page": 183,
+          "title": "Quyền của cơ quan, tổ chức, cá nhân có thẩm quyền giải quyết tranh chấp lao động",
+          "chapter": "XIV",
+          "char_start": 151091,
+          "char_end": 151466,
+          "char_count": 375
+        },
+        {
+          "unit_id": "blld-2019:D184",
+          "page": 184,
+          "title": "Hòa giải viên lao động",
+          "chapter": "XIV",
+          "char_start": 151467,
+          "char_end": 151873,
+          "char_count": 406
+        },
+        {
+          "unit_id": "blld-2019:D185",
+          "page": 185,
+          "title": "Hội đồng trọng tài lao động",
+          "chapter": "XIV",
+          "char_start": 151874,
+          "char_end": 154603,
+          "char_count": 2729
+        },
+        {
+          "unit_id": "blld-2019:D186",
+          "page": 186,
+          "title": "Cấm hành động đơn phương trong khi tranh chấp lao động đang được giải quyết",
+          "chapter": "XIV",
+          "char_start": 154604,
+          "char_end": 154882,
+          "char_count": 278
+        },
+        {
+          "unit_id": "blld-2019:D187",
+          "page": 187,
+          "title": "Thẩm quyền giải quyết tranh chấp lao động cá nhân",
+          "chapter": "XIV",
+          "char_start": 154952,
+          "char_end": 155178,
+          "char_count": 226
+        },
+        {
+          "unit_id": "blld-2019:D188",
+          "page": 188,
+          "title": "Trình tự, thủ tục hòa giải tranh chấp lao động cá nhân của hòa giải viên lao động",
+          "chapter": "XIV",
+          "char_start": 155179,
+          "char_end": 158376,
+          "char_count": 3197
+        },
+        {
+          "unit_id": "blld-2019:D189",
+          "page": 189,
+          "title": "Giải quyết tranh chấp lao động cá nhân của Hội đồng trọng tài lao động",
+          "chapter": "XIV",
+          "char_start": 158377,
+          "char_end": 159591,
+          "char_count": 1214
+        },
+        {
+          "unit_id": "blld-2019:D190",
+          "page": 190,
+          "title": "Thời hiệu yêu cầu giải quyết tranh chấp lao động cá nhân",
+          "chapter": "XIV",
+          "char_start": 159592,
+          "char_end": 160594,
+          "char_count": 1002
+        },
+        {
+          "unit_id": "blld-2019:D191",
+          "page": 191,
+          "title": "Thẩm quyền giải quyết tranh chấp lao động tập thể về quyền",
+          "chapter": "XIV",
+          "char_start": 160673,
+          "char_end": 161105,
+          "char_count": 432
+        },
+        {
+          "unit_id": "blld-2019:D192",
+          "page": 192,
+          "title": "Trình tự, thủ tục giải quyết tranh chấp lao động tập thể về quyền",
+          "chapter": "XIV",
+          "char_start": 161106,
+          "char_end": 161978,
+          "char_count": 872
+        },
+        {
+          "unit_id": "blld-2019:D193",
+          "page": 193,
+          "title": "Giải quyết tranh chấp lao động tập thể về quyền của Hội đồng trọng tài lao động",
+          "chapter": "XIV",
+          "char_start": 161979,
+          "char_end": 163879,
+          "char_count": 1900
+        },
+        {
+          "unit_id": "blld-2019:D194",
+          "page": 194,
+          "title": "Thời hiệu yêu cầu giải quyết tranh chấp lao động tập thể về quyền",
+          "chapter": "XIV",
+          "char_start": 163880,
+          "char_end": 164547,
+          "char_count": 667
+        },
+        {
+          "unit_id": "blld-2019:D195",
+          "page": 195,
+          "title": "Thẩm quyền giải quyết tranh chấp lao động tập thể về lợi ích",
+          "chapter": "XIV",
+          "char_start": 164628,
+          "char_end": 165058,
+          "char_count": 430
+        },
+        {
+          "unit_id": "blld-2019:D196",
+          "page": 196,
+          "title": "Trình tự, thủ tục giải quyết tranh chấp lao động tập thể về lợi ích",
+          "chapter": "XIV",
+          "char_start": 165059,
+          "char_end": 166113,
+          "char_count": 1054
+        },
+        {
+          "unit_id": "blld-2019:D197",
+          "page": 197,
+          "title": "Giải quyết tranh chấp lao động tập thể về lợi ích của Hội đồng trọng tài lao động",
+          "chapter": "XIV",
+          "char_start": 166114,
+          "char_end": 167788,
+          "char_count": 1674
+        },
+        {
+          "unit_id": "blld-2019:D198",
+          "page": 198,
+          "title": "Đình công",
+          "chapter": "XIV",
+          "char_start": 167806,
+          "char_end": 168102,
+          "char_count": 296
+        },
+        {
+          "unit_id": "blld-2019:D199",
+          "page": 199,
+          "title": "Trường hợp người lao động có quyền đình công",
+          "chapter": "XIV",
+          "char_start": 168103,
+          "char_end": 168737,
+          "char_count": 634
+        },
+        {
+          "unit_id": "blld-2019:D200",
+          "page": 200,
+          "title": "Trình tự đình công",
+          "chapter": "XIV",
+          "char_start": 168738,
+          "char_end": 168955,
+          "char_count": 217
+        },
+        {
+          "unit_id": "blld-2019:D201",
+          "page": 201,
+          "title": "Lấy ý kiến về đình công",
+          "chapter": "XIV",
+          "char_start": 168956,
+          "char_end": 170034,
+          "char_count": 1078
+        },
+        {
+          "unit_id": "blld-2019:D202",
+          "page": 202,
+          "title": "Quyết định đình công và thông báo thời điểm bắt đầu đình công",
+          "chapter": "XIV",
+          "char_start": 170035,
+          "char_end": 171108,
+          "char_count": 1073
+        },
+        {
+          "unit_id": "blld-2019:D203",
+          "page": 203,
+          "title": "Quyền của các bên trước và trong quá trình đình công",
+          "chapter": "XIV",
+          "char_start": 171109,
+          "char_end": 172031,
+          "char_count": 922
+        },
+        {
+          "unit_id": "blld-2019:D204",
+          "page": 204,
+          "title": "Trường hợp đình công bất hợp pháp",
+          "chapter": "XIV",
+          "char_start": 172032,
+          "char_end": 172682,
+          "char_count": 650
+        },
+        {
+          "unit_id": "blld-2019:D205",
+          "page": 205,
+          "title": "Thông báo quyết định đóng cửa tạm thời nơi làm việc",
+          "chapter": "XIV",
+          "char_start": 172683,
+          "char_end": 173161,
+          "char_count": 478
+        },
+        {
+          "unit_id": "blld-2019:D206",
+          "page": 206,
+          "title": "Trường hợp cấm đóng cửa tạm thời nơi làm việc",
+          "chapter": "XIV",
+          "char_start": 173162,
+          "char_end": 173343,
+          "char_count": 181
+        },
+        {
+          "unit_id": "blld-2019:D207",
+          "page": 207,
+          "title": "Tiền lương và các quyền lợi hợp pháp khác của người lao động trong thời gian đình công",
+          "chapter": "XIV",
+          "char_start": 173344,
+          "char_end": 173819,
+          "char_count": 475
+        },
+        {
+          "unit_id": "blld-2019:D208",
+          "page": 208,
+          "title": "Các hành vi bị nghiêm cấm trước, trong và sau khi đình công",
+          "chapter": "XIV",
+          "char_start": 173820,
+          "char_end": 174575,
+          "char_count": 755
+        },
+        {
+          "unit_id": "blld-2019:D209",
+          "page": 209,
+          "title": "Nơi sử dụng lao động không được đình công",
+          "chapter": "XIV",
+          "char_start": 174576,
+          "char_end": 174963,
+          "char_count": 387
+        },
+        {
+          "unit_id": "blld-2019:D210",
+          "page": 210,
+          "title": "Quyết định hoãn, ngừng đình công",
+          "chapter": "XIV",
+          "char_start": 174964,
+          "char_end": 175372,
+          "char_count": 408
+        },
+        {
+          "unit_id": "blld-2019:D211",
+          "page": 211,
+          "title": "Xử lý cuộc đình công không đúng trình tự, thủ tục",
+          "chapter": "XIV",
+          "char_start": 175373,
+          "char_end": 176332,
+          "char_count": 959
+        },
+        {
+          "unit_id": "blld-2019:D212",
+          "page": 212,
+          "title": "Nội dung quản lý nhà nước về lao động",
+          "chapter": "XV",
+          "char_start": 176372,
+          "char_end": 177747,
+          "char_count": 1375
+        },
+        {
+          "unit_id": "blld-2019:D213",
+          "page": 213,
+          "title": "Thẩm quyền quản lý nhà nước về lao động",
+          "chapter": "XV",
+          "char_start": 177748,
+          "char_end": 178264,
+          "char_count": 516
+        },
+        {
+          "unit_id": "blld-2019:D214",
+          "page": 214,
+          "title": "Nội dung thanh tra lao động",
+          "chapter": "XVI",
+          "char_start": 178332,
+          "char_end": 178790,
+          "char_count": 458
+        },
+        {
+          "unit_id": "blld-2019:D215",
+          "page": 215,
+          "title": "Thanh tra chuyên ngành về lao động",
+          "chapter": "XVI",
+          "char_start": 178791,
+          "char_end": 179032,
+          "char_count": 241
+        },
+        {
+          "unit_id": "blld-2019:D216",
+          "page": 216,
+          "title": "Quyền của thanh tra lao động",
+          "chapter": "XVI",
+          "char_start": 179033,
+          "char_end": 179412,
+          "char_count": 379
+        },
+        {
+          "unit_id": "blld-2019:D217",
+          "page": 217,
+          "title": "Xử lý vi phạm",
+          "chapter": "XVI",
+          "char_start": 179413,
+          "char_end": 180710,
+          "char_count": 1297
+        },
+        {
+          "unit_id": "blld-2019:D218",
+          "page": 218,
+          "title": "Miễn, giảm thủ tục đối với trường hợp sử dụng dưới 10 lao động",
+          "chapter": "XVII",
+          "char_start": 180743,
+          "char_end": 180970,
+          "char_count": 227
+        },
+        {
+          "unit_id": "blld-2019:D219",
+          "page": 219,
+          "title": "Sửa đổi, bổ sung một số điều của các luật có liên quan đến lao động",
+          "chapter": "XVII",
+          "char_start": 180971,
+          "char_end": 188218,
+          "char_count": 7247
+        },
+        {
+          "unit_id": "blld-2019:D220",
+          "page": 220,
+          "title": "Hiệu lực thi hành",
+          "chapter": "XVII",
+          "char_start": 188219,
+          "char_end": 189102,
+          "char_count": 883
+        }
+      ]
+    }
+  ]
+}

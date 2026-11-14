@@ -1,0 +1,4 @@
+﻿strategy,split,N,hit_at_1,hit_at_3,hit_at_1_rate,hit_at_3_rate,gold_unit_at_3,evidence_split,filter_questions,filter_hit_at_3,filter_compliant
+A,test,7,5,7,0.714,1.0,7,0,2,2,0
+B,test,7,7,7,1.0,1.0,7,0,2,2,0
+C,test,7,7,7,1.0,1.0,7,0,2,2,2
